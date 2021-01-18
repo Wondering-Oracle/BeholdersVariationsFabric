@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "beholdersvariations:block/vitric_sandstone_pillar_top",
+        "side": "beholdersvariations:block/vitric_sandstone_pillar"
+    }
+}

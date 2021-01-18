@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "beholdersvariations:block/prismarine_sand" },
+            { "model": "beholdersvariations:block/prismarine_sand", "y": 90 },
+            { "model": "beholdersvariations:block/prismarine_sand", "y": 180 },
+            { "model": "beholdersvariations:block/prismarine_sand", "y": 270 }
+        ]
+    }
+}

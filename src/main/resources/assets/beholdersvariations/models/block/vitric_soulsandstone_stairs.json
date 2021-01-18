@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "beholdersvariations:block/vitric_soulsandstone",
+        "top": "beholdersvariations:block/vitric_soulsandstone",
+        "side": "beholdersvariations:block/vitric_soulsandstone"
+    }
+}

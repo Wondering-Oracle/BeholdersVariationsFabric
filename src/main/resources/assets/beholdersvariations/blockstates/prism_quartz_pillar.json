@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "beholdersvariations:block/prism_quartz_pillar" },
+        "axis=z":   { "model": "beholdersvariations:block/prism_quartz_pillar", "x": 90 },
+        "axis=x":   { "model": "beholdersvariations:block/prism_quartz_pillar", "x": 90, "y": 90 }
+    }
+}

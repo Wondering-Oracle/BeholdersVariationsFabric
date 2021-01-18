@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "beholdersvariations:block/silica_sand" },
+            { "model": "beholdersvariations:block/silica_sand", "y": 90 },
+            { "model": "beholdersvariations:block/silica_sand", "y": 180 },
+            { "model": "beholdersvariations:block/silica_sand", "y": 270 }
+        ]
+    }
+}

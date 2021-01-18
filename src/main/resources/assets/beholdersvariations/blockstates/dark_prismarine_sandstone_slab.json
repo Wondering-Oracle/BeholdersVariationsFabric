@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "beholdersvariations:block/dark_prismarine_sandstone_slab" },
+        "type=top": { "model": "beholdersvariations:block/dark_prismarine_sandstone_slab_top" },
+        "type=double": { "model": "beholdersvariations:block/dark_prismarine_sandstone" }
+    }
+}

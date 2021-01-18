@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "beholdersvariations:block/vitric_red_sandstone_pillar" },
+        "axis=z":   { "model": "beholdersvariations:block/vitric_red_sandstone_pillar", "x": 90 },
+        "axis=x":   { "model": "beholdersvariations:block/vitric_red_sandstone_pillar", "x": 90, "y": 90 }
+    }
+}

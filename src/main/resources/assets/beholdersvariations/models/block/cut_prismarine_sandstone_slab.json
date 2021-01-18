@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "beholdersvariations:block/prismarine_sandstone_top",
+        "top": "beholdersvariations:block/prismarine_sandstone_top",
+        "side": "beholdersvariations:block/cut_prismarine_sandstone"
+    }
+}

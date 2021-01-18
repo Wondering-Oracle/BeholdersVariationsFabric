@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "beholdersvariations:block/prismarine_sandstone_bottom",
+        "top": "beholdersvariations:block/prismarine_sandstone_top",
+        "side": "beholdersvariations:block/prismarine_sandstone"
+    }
+}

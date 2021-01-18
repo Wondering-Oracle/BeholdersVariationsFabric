@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "beholdersvariations:block/soulsandstone_top",
+        "top": "beholdersvariations:block/soulsandstone_top",
+        "side": "beholdersvariations:block/soulsandstone_top"
+    }
+}

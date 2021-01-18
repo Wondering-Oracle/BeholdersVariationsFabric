@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "beholdersvariations:block/vitric_soulsandstone_slab" },
+        "type=top": { "model": "beholdersvariations:block/vitric_soulsandstone_slab_top" },
+        "type=double": { "model": "beholdersvariations:block/vitric_soulsandstone" }
+    }
+}

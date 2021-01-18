@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "beholdersvariations:block/quartz_tiling",
+        "top": "beholdersvariations:block/quartz_tiling",
+        "side": "beholdersvariations:block/quartz_tiling"
+    }
+}

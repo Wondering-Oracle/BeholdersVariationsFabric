@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "beholdersvariations:block/silicastone_top",
+        "top": "beholdersvariations:block/silicastone_top",
+        "side": "beholdersvariations:block/cut_silicastone"
+    }
+}

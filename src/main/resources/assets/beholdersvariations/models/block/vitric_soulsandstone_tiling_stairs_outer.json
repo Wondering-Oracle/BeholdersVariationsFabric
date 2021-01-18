@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "beholdersvariations:block/soulsandstone_tiling",
+        "top": "beholdersvariations:block/soulsandstone_tiling",
+        "side": "beholdersvariations:block/soulsandstone_tiling"
+    }
+}

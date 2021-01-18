@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "beholdersvariations:block/silicastone_top",
+        "side": "beholdersvariations:block/cut_silicastone"
+    }
+}

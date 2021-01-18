@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "beholdersvariations:block/silicastone_bottom",
+        "top": "beholdersvariations:block/silicastone_top",
+        "side": "beholdersvariations:block/silicastone"
+    }
+}
