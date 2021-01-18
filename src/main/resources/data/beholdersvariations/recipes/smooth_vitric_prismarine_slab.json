@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:smooth_vitric_prismarine"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:smooth_vitric_prismarine_slab",
+    "count": 6
+  }
+}

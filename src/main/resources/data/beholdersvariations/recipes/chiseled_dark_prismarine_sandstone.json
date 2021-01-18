@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:dark_prismarine_sandstone_slab"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:chiseled_dark_prismarine_sandstone"
+  }
+}

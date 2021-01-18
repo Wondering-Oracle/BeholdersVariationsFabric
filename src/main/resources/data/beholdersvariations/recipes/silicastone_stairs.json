@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "beholdersvariations:silicastone"
+      },
+      {
+        "item": "beholdersvariations:chiseled_silicastone"
+      },
+      {
+        "item": "beholdersvariations:cut_silicastone"
+      }
+    ]
+  },
+  "result": {
+    "item": "beholdersvariations:silicastone_stairs",
+    "count": 4
+  }
+}

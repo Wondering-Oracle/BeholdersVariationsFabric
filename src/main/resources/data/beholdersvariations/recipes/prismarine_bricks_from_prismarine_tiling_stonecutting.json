@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:prismarine_tiling"
+  },
+  "result": "minecraft:prismarine_bricks",
+  "count": 1
+}

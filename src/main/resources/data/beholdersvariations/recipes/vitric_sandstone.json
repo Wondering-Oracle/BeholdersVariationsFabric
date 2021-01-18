@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "*#",
+    "#*"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:sandstone"
+      },
+      {
+        "item": "minecraft:cut_sandstone"
+      },
+      {
+        "item": "minecraft:chiseled_sandstone"
+      }
+    ],
+    "*": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:vitric_sandstone",
+    "count": 2
+  }
+}

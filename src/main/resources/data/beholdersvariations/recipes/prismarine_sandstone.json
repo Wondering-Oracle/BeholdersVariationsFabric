@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#*",
+    "*#"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:prismarine_sand"
+    },
+    "*": {
+      "item":"minecraft:prismarine_shard"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:prismarine_sandstone"
+  }
+}

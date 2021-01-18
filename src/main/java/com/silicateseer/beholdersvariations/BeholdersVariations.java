@@ -24,8 +24,6 @@ public class BeholdersVariations implements ModInitializer {
 	
 	public static final Block SILICA_SAND = register("silica_sand", 
 			new SandBlock(14866662, FabricBlockSettings.of(Material.AGGREGATE, MaterialColor.QUARTZ).strength(0.5F).sounds(BlockSoundGroup.SAND)), ItemGroup.BUILDING_BLOCKS);
-	public static final Block PRISMARINE_SAND = register("prismarine_sand", 
-			new SandBlock(6200996, FabricBlockSettings.of(Material.AGGREGATE, MaterialColor.CYAN).strength(0.5F).sounds(BlockSoundGroup.SAND)), ItemGroup.BUILDING_BLOCKS);
 	
 	public static final Block SILICASTONE = register("silicastone", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.QUARTZ).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
@@ -145,6 +143,125 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_VITRIC_SOULSANDSTONE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_SOULSANDSTONE_STAIRS = register("smooth_vitric_soulsandstone_stairs", 
 			new StairBlock(SMOOTH_VITRIC_SOULSANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final Block PRISMARINE_SAND = register("prismarine_sand", 
+			new SandBlock(6200996, FabricBlockSettings.of(Material.AGGREGATE, MaterialColor.CYAN).strength(0.5F).sounds(BlockSoundGroup.SAND)), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final Block PRISM_QUARTZ = register("prism_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.CYAN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISM_QUARTZ_SLAB = register("prism_quartz_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(PRISM_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISM_QUARTZ_STAIRS = register("prism_quartz_stairs", 
+			new StairBlock(PRISM_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_PRISM_QUARTZ = register("chiseled_prism_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.CYAN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISM_QUARTZ_BRICKS = register("prism_quartz_bricks", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.CYAN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISM_QUARTZ_TILING = register("prism_quartz_tiling", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.CYAN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISM_QUARTZ_TILING_SLAB = register("prism_quartz_tiling_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(PRISM_QUARTZ_TILING)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISM_QUARTZ_TILING_STAIRS = register("prism_quartz_tiling_stairs", 
+			new StairBlock(PRISM_QUARTZ_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISM_QUARTZ_PILLAR = register("prism_quartz_pillar", 
+			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.CYAN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_PRISM_QUARTZ = register("smooth_prism_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.CYAN).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_PRISM_QUARTZ_SLAB = register("smooth_prism_quartz_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_PRISM_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_PRISM_QUARTZ_STAIRS = register("smooth_prism_quartz_stairs", 
+			new StairBlock(SMOOTH_PRISM_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final Block PRISMARINE_SANDSTONE = register("prismarine_sandstone", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISMARINE_SANDSTONE_SLAB = register("prismarine_sandstone_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(PRISMARINE_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISMARINE_SANDSTONE_STAIRS = register("prismarine_sandstone_stairs", 
+			new StairBlock(PRISMARINE_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CUT_PRISMARINE_SANDSTONE = register("cut_prismarine_sandstone", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CUT_PRISMARINE_SANDSTONE_SLAB = register("cut_prismarine_sandstone_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(CUT_PRISMARINE_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_PRISMARINE_SANDSTONE = register("chiseled_prismarine_sandstone", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_PRISMARINE_SANDSTONE = register("smooth_prismarine_sandstone", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_PRISMARINE_SANDSTONE_SLAB = register("smooth_prismarine_sandstone_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_PRISMARINE_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_PRISMARINE_SANDSTONE_STAIRS = register("smooth_prismarine_sandstone_stairs", 
+			new StairBlock(SMOOTH_PRISMARINE_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_PRISMARINE = register("vitric_prismarine", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_PRISMARINE_SLAB = register("vitric_prismarine_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(VITRIC_PRISMARINE)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_PRISMARINE_STAIRS = register("vitric_prismarine_stairs", 
+			new StairBlock(VITRIC_PRISMARINE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_VITRIC_PRISMARINE = register("chiseled_vitric_prismarine", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_PRISMARINE_BRICKS = register("vitric_prismarine_bricks", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_PRISMARINE_PILLAR = register("vitric_prismarine_pillar", 
+			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_VITRIC_PRISMARINE = register("smooth_vitric_prismarine", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_VITRIC_PRISMARINE_SLAB = register("smooth_vitric_prismarine_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_VITRIC_PRISMARINE)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_VITRIC_PRISMARINE_STAIRS = register("smooth_vitric_prismarine_stairs", 
+			new StairBlock(SMOOTH_VITRIC_PRISMARINE), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final Block PRISMARINE_TILING = register("prismarine_tiling", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(1.5F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISMARINE_TILING_SLAB = register("prismarine_tiling_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(PRISMARINE_TILING)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISMARINE_TILING_STAIRS = register("prismarine_tiling_stairs", 
+			new StairBlock(PRISMARINE_TILING), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final Block DARK_PRISMARINE_SANDSTONE = register("dark_prismarine_sandstone", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block DARK_PRISMARINE_SANDSTONE_SLAB = register("dark_prismarine_sandstone_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(DARK_PRISMARINE_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block DARK_PRISMARINE_SANDSTONE_STAIRS = register("dark_prismarine_sandstone_stairs", 
+			new StairBlock(DARK_PRISMARINE_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CUT_DARK_PRISMARINE_SANDSTONE = register("cut_dark_prismarine_sandstone", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CUT_DARK_PRISMARINE_SANDSTONE_SLAB = register("cut_dark_prismarine_sandstone_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(CUT_DARK_PRISMARINE_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_DARK_PRISMARINE_SANDSTONE = register("chiseled_dark_prismarine_sandstone", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_DARK_PRISMARINE_SANDSTONE = register("smooth_dark_prismarine_sandstone", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_DARK_PRISMARINE_SANDSTONE_SLAB = register("smooth_dark_prismarine_sandstone_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_DARK_PRISMARINE_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_DARK_PRISMARINE_SANDSTONE_STAIRS = register("smooth_dark_prismarine_sandstone_stairs", 
+			new StairBlock(SMOOTH_DARK_PRISMARINE_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_DARK_PRISMARINE = register("vitric_dark_prismarine", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_DARK_PRISMARINE_SLAB = register("vitric_dark_prismarine_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(VITRIC_DARK_PRISMARINE)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_DARK_PRISMARINE_STAIRS = register("vitric_dark_prismarine_stairs", 
+			new StairBlock(VITRIC_DARK_PRISMARINE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_VITRIC_DARK_PRISMARINE = register("chiseled_vitric_dark_prismarine", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_DARK_PRISMARINE_BRICKS = register("vitric_dark_prismarine_bricks", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_DARK_PRISMARINE_PILLAR = register("vitric_dark_prismarine_pillar", 
+			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_VITRIC_DARK_PRISMARINE = register("smooth_vitric_dark_prismarine", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_VITRIC_DARK_PRISMARINE_SLAB = register("smooth_vitric_dark_prismarine_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_VITRIC_DARK_PRISMARINE)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_VITRIC_DARK_PRISMARINE_STAIRS = register("smooth_vitric_dark_prismarine_stairs", 
+			new StairBlock(SMOOTH_VITRIC_DARK_PRISMARINE), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final Block DARK_PRISMARINE_BRICKS = register("dark_prismarine_bricks", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(1.5F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block DARK_PRISMARINE_BRICK_SLAB = register("dark_prismarine_brick_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(DARK_PRISMARINE_BRICKS)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block DARK_PRISMARINE_BRICK_STAIRS = register("dark_prismarine_brick_stairs", 
+			new StairBlock(DARK_PRISMARINE_BRICKS), ItemGroup.BUILDING_BLOCKS);
+	
+	//public static final Block IMMOVABLE_TEST = register("test_block", 
+	//		new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	
 	@Override
 	public void onInitialize() {

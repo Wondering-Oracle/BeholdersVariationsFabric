@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@#@",
+    "#$#",
+    "@#@"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz"
+    },
+    "@": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "$": {
+      "item": "minecraft:prismarine"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:prism_quartz",
+    "count": 4
+  }
+}

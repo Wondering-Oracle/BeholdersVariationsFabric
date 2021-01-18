@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:dark_prismarine_sandstone"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:cut_dark_prismarine_sandstone",
+    "count": 4
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:dark_prismarine_bricks"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:dark_prismarine_brick_stairs",
+    "count": 4
+  }
+}

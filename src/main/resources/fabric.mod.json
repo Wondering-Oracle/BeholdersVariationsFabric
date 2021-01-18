@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Beholder's Variations",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "This mod add a variety of new blocks that are based on vanilla blocks. Item textures by mc-sprite-edits.",
   "authors": [
     "SilicateSeer/Wondering-Oracle"
   ],

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:smooth_vitric_red_sandstone"
+  },
+  "result": "beholdersvariations:smooth_vitric_red_sandstone_stairs",
+  "count": 1
+}

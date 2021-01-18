@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:prismarine_sandstone"
+  },
+  "result": "beholdersvariations:cut_prismarine_sandstone",
+  "count": 1
+}

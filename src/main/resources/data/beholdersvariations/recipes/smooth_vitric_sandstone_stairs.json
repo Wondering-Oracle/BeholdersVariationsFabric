@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:smooth_vitric_sandstone"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:smooth_vitric_sandstone_stairs",
+    "count": 4
+  }
+}

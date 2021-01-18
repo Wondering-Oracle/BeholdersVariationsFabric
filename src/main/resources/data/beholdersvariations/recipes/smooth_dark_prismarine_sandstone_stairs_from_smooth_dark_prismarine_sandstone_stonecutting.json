@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:smooth_dark_prismarine_sandstone"
+  },
+  "result": "beholdersvariations:smooth_dark_prismarine_sandstone_stairs",
+  "count": 1
+}

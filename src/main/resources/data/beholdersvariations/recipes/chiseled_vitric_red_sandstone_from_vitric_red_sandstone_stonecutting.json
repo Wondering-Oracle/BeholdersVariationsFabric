@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:vitric_red_sandstone"
+  },
+  "result": "beholdersvariations:chiseled_vitric_red_sandstone",
+  "count": 1
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@#",
+    "#@"
+  ],
+  "key": {
+    "@": {
+      "item": "beholdersvariations:nether_pearl"
+    },
+    "#": {
+      "item": "minecraft:prismarine"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:prismarine_sand",
+    "count": 2
+  }
+}

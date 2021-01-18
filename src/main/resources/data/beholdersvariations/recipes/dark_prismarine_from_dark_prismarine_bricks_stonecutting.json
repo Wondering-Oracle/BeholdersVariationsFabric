@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:dark_prismarine_bricks"
+  },
+  "result": "minecraft:dark_prismarine",
+  "count": 1
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "beholdersvariations:soulsandstone"
+      },
+      {
+        "item": "beholdersvariations:chiseled_soulsandstone"
+      },
+      {
+        "item": "beholdersvariations:cut_soulsandstone"
+      }
+    ]
+  },
+  "result": {
+    "item": "beholdersvariations:soulsandstone_stairs",
+    "count": 4
+  }
+}

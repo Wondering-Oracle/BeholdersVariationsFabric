@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:prismarine"
+  },
+  "result": "beholdersvariations:vitric_prismarine",
+  "experience": 0.1,
+  "cookingtime": 200
+}

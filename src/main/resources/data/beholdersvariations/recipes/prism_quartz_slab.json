@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "beholdersvariations:chiseled_prism_quartz"
+      },
+      {
+        "item": "beholdersvariations:prism_quartz"
+      },
+      {
+        "item": "beholdersvariations:prism_quartz_pillar"
+      }
+    ]
+  },
+  "result": {
+    "item": "beholdersvariations:prism_quartz_slab",
+    "count": 6
+  }
+}

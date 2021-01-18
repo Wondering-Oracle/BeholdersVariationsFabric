@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:cut_silicastone"
+  },
+  "result": "beholdersvariations:cut_silicastone_slab",
+  "count": 2
+}

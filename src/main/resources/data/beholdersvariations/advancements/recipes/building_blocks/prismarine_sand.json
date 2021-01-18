@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:prismarine_sand",
+      "beholdersvariations:prismarine_sand_from_sand"
+    ]
+  },
+  "criteria": {
+    "has_prismarine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_shard"
+          },
+          {
+            "item": "minecraft:prismarine"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:prismarine_sand"
+      }
+    },
+    "has_the_other_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:prismarine_sand_from_sand"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_prismarine",
+      "has_the_recipe",
+      "has_the_other_recipe"
+    ]
+  ]
+}

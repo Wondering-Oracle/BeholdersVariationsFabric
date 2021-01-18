@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "beholdersvariations:chiseled_vitric_prismarine"
+      },
+      {
+        "item": "beholdersvariations:vitric_prismarine"
+      },
+      {
+        "item": "beholdersvariations:vitric_prismarine_pillar"
+      }
+    ]
+  },
+  "result": {
+    "item": "beholdersvariations:vitric_prismarine_stairs",
+    "count": 4
+  }
+}

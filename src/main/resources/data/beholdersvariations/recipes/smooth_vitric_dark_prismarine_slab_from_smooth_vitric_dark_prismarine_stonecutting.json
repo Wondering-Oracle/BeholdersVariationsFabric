@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:smooth_vitric_dark_prismarine"
+  },
+  "result": "beholdersvariations:smooth_vitric_dark_prismarine_slab",
+  "count": 2
+}

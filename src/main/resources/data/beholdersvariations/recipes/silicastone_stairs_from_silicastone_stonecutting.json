@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:silicastone"
+  },
+  "result": "beholdersvariations:silicastone_stairs",
+  "count": 1
+}

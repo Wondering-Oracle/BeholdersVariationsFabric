@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "beholdersvariations:silicastone"
+      },
+      {
+        "item": "beholdersvariations:chiseled_silicastone"
+      }
+    ]
+  },
+  "result": {
+    "item": "beholdersvariations:silicastone_slab",
+    "count": 6
+  }
+}

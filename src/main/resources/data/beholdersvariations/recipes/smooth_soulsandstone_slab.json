@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:smooth_soulsandstone"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:smooth_soulsandstone_slab",
+    "count": 6
+  }
+}

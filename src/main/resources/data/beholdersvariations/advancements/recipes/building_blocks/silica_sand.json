@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:silica_sand"
+    ]
+  },
+  "criteria": {
+    "has_nether_pearl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:nether_pearl"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:silica_sand"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_pearl",
+      "has_the_recipe"
+    ]
+  ]
+}
