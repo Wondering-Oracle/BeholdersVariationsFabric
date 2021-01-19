@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "beholdersvariations:block/refined_obsidian_pillar_top",
+        "side": "beholdersvariations:block/refined_obsidian_pillar"
+    }
+}

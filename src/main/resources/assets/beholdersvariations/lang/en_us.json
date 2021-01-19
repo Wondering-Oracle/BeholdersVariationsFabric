@@ -116,5 +116,18 @@
 	"block.beholdersvariations.prism_quartz_bricks": "Prism Quartz Bricks",
 	"block.beholdersvariations.vitric_sandstone_bricks": "Vitric Sandstone Bricks",
 	"block.beholdersvariations.vitric_red_sandstone_bricks": "Vitric Red Sandstone Bricks",
-	"block.beholdersvariations.vitric_soulsandstone_bricks": "Vitric Soulsandstone Bricks"
+	"block.beholdersvariations.vitric_soulsandstone_bricks": "Vitric Soulsandstone Bricks",
+	
+	"block.beholdersvariations.refined_obsidian": "Refined Obsidian",
+	"block.beholdersvariations.refined_obsidian_slab": "Refined Obsidian Slab",
+	"block.beholdersvariations.refined_obsidian_stairs": "Refined Obsidian Stairs",
+	"block.beholdersvariations.smooth_refined_obsidian": "Smooth Refined Obsidian",
+	"block.beholdersvariations.smooth_refined_obsidian_slab": "Smooth Refined Obsidian Slab",
+	"block.beholdersvariations.smooth_refined_obsidian_stairs": "Smooth Refined Obsidian Stairs",
+	"block.beholdersvariations.refined_obsidian_pillar": "Refined Obsidian Pillar",
+	"block.beholdersvariations.chiseled_refined_obsidian": "Chiseled Refined Obsidian",
+	"block.beholdersvariations.refined_obsidian_bricks": "Refined Obsidian Bricks",
+	"block.beholdersvariations.refined_obsidian_tiling": "Refined Obsidian Tiling",
+	"block.beholdersvariations.refined_obsidian_tiling_slab": "Refined Obsidian Tiling Slab",
+	"block.beholdersvariations.refined_obsidian_tiling_stairs": "Refined Obsidian Tiling Stairs"
 }

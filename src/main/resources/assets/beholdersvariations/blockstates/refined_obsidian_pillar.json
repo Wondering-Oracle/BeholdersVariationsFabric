@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "beholdersvariations:block/refined_obsidian_pillar" },
+        "axis=z":   { "model": "beholdersvariations:block/refined_obsidian_pillar", "x": 90 },
+        "axis=x":   { "model": "beholdersvariations:block/refined_obsidian_pillar", "x": 90, "y": 90 }
+    }
+}

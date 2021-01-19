@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "beholdersvariations:block/refined_obsidian_tiling",
+        "top": "beholdersvariations:block/refined_obsidian_tiling",
+        "side": "beholdersvariations:block/refined_obsidian_tiling"
+    }
+}

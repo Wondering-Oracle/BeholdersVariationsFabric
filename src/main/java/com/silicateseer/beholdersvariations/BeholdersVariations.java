@@ -260,6 +260,31 @@ public class BeholdersVariations implements ModInitializer {
 	public static final Block DARK_PRISMARINE_BRICK_STAIRS = register("dark_prismarine_brick_stairs", 
 			new StairBlock(DARK_PRISMARINE_BRICKS), ItemGroup.BUILDING_BLOCKS);
 	
+	public static final Block REFINED_OBSIDIAN = register("refined_obsidian", 
+			new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_SLAB = register("refined_obsidian_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(REFINED_OBSIDIAN)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_STAIRS = register("refined_obsidian_stairs", 
+			new StairBlock(REFINED_OBSIDIAN), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_REFINED_OBSIDIAN = register("chiseled_refined_obsidian", 
+			new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_BRICKS = register("refined_obsidian_bricks", 
+			new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_TILING = register("refined_obsidian_tiling", 
+			new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_TILING_SLAB = register("refined_obsidian_tiling_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(REFINED_OBSIDIAN_TILING)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_TILING_STAIRS = register("refined_obsidian_tiling_stairs", 
+			new StairBlock(REFINED_OBSIDIAN_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_PILLAR = register("refined_obsidian_pillar", 
+			new PillarBlock(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_REFINED_OBSIDIAN = register("smooth_refined_obsidian", 
+			new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_REFINED_OBSIDIAN_SLAB = register("smooth_refined_obsidian_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_REFINED_OBSIDIAN)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_REFINED_OBSIDIAN_STAIRS = register("smooth_refined_obsidian_stairs", 
+			new StairBlock(SMOOTH_REFINED_OBSIDIAN), ItemGroup.BUILDING_BLOCKS);
+	
 	//public static final Block IMMOVABLE_TEST = register("test_block", 
 	//		new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	
