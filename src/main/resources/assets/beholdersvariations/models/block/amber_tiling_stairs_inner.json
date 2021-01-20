@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "beholdersvariations:block/amber_tiling",
+        "top": "beholdersvariations:block/amber_tiling",
+        "side": "beholdersvariations:block/amber_tiling"
+    }
+}

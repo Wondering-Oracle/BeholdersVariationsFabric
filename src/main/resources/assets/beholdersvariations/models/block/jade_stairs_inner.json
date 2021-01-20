@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "beholdersvariations:block/jade",
+        "top": "beholdersvariations:block/jade",
+        "side": "beholdersvariations:block/jade"
+    }
+}
