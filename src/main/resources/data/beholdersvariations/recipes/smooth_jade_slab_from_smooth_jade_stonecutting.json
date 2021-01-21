@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:smooth_jade"
+  },
+  "result": "beholdersvariations:smooth_jade_slab",
+  "count": 2
+}

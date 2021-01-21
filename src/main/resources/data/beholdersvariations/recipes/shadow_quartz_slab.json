@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "beholdersvariations:chiseled_shadow_quartz"
+      },
+      {
+        "item": "beholdersvariations:shadow_quartz"
+      },
+      {
+        "item": "beholdersvariations:shadow_quartz_pillar"
+      }
+    ]
+  },
+  "result": {
+    "item": "beholdersvariations:shadow_quartz_slab",
+    "count": 6
+  }
+}

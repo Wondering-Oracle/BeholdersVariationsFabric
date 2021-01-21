@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:refined_obsidian"
+  },
+  "result": "beholdersvariations:chiseled_refined_obsidian",
+  "count": 1
+}

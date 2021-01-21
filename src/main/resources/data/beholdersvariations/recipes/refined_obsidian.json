@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:obsidian"
+  },
+  "result": "beholdersvariations:refined_obsidian",
+  "experience": 0.3,
+  "cookingtime": 400
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "beholdersvariations:chiseled_jade"
+      },
+      {
+        "item": "beholdersvariations:jade"
+      },
+      {
+        "item": "beholdersvariations:jade_pillar"
+      }
+    ]
+  },
+  "result": {
+    "item": "beholdersvariations:jade_slab",
+    "count": 6
+  }
+}
