@@ -1,8 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "@#",
-    "#@"
+    "###",
+    "#@#",
+    "###"
   ],
   "key": {
     "#": {
@@ -14,6 +15,6 @@
   },
   "result": {
     "item": "beholdersvariations:shadow_quartz",
-    "count": 4
+    "count": 8
   }
 }

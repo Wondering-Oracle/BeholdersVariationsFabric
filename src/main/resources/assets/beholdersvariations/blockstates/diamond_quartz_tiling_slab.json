@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "beholdersvariations:block/diamond_quartz_tiling_slab" },
+        "type=top": { "model": "beholdersvariations:block/diamond_quartz_tiling_slab_top" },
+        "type=double": { "model": "beholdersvariations:block/diamond_quartz_tiling" }
+    }
+}

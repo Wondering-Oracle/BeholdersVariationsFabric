@@ -363,7 +363,7 @@ public class BeholdersVariations implements ModInitializer {
 	public static final Block SMOOTH_AMBER_STAIRS = register("smooth_amber_stairs", 
 			new StairBlock(SMOOTH_AMBER), ItemGroup.BUILDING_BLOCKS);
 	
-	public static final Block ROSE_QUARTZ = register("rose_quartz", 
+	/*public static final Block ROSE_QUARTZ = register("rose_quartz", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.PINK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block ROSE_QUARTZ_SLAB = register("rose_quartz_slab", 
 			new SlabBlock(FabricBlockSettings.copyOf(ROSE_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
@@ -387,6 +387,7 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_ROSE_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_ROSE_QUARTZ_STAIRS = register("smooth_rose_quartz_stairs", 
 			new StairBlock(SMOOTH_ROSE_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	*/
 	
 	public static final Block EMERALD_QUARTZ = register("emerald_quartz", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);

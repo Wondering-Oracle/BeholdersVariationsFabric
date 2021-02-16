@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "beholdersvariations:block/emerald_quartz_pillar_top",
+        "side": "beholdersvariations:block/emerald_quartz_pillar"
+    }
+}
