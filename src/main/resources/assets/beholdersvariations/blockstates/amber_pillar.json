@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "beholdersvariations:block/amber_pillar" },
+        "axis=z":   { "model": "beholdersvariations:block/amber_pillar", "x": 90 },
+        "axis=x":   { "model": "beholdersvariations:block/amber_pillar", "x": 90, "y": 90 }
+    }
+}

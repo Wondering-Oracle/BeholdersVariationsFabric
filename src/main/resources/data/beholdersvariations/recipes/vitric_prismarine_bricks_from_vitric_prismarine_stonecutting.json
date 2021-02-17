@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:vitric_prismarine"
+  },
+  "result": "beholdersvariations:vitric_prismarine_bricks",
+  "count": 1
+}

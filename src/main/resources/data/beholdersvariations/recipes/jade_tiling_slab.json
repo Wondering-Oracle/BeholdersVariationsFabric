@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:jade_tiling"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:jade_tiling_slab",
+    "count": 6
+  }
+}

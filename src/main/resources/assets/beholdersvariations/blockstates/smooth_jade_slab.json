@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "beholdersvariations:block/smooth_jade_slab" },
+        "type=top": { "model": "beholdersvariations:block/smooth_jade_slab_top" },
+        "type=double": { "model": "beholdersvariations:block/smooth_jade" }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "beholdersvariations:block/smooth_refined_obsidian",
+        "top": "beholdersvariations:block/smooth_refined_obsidian",
+        "side": "beholdersvariations:block/smooth_refined_obsidian"
+    }
+}

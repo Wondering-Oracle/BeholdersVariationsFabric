@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:refined_obsidian_tiling"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:refined_obsidian_tiling_slab",
+    "count": 6
+  }
+}

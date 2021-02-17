@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:jade_tiling"
+  },
+  "result": "beholdersvariations:jade_tiling_slab",
+  "count": 2
+}

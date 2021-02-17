@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "beholdersvariations:block/amber_tiling",
+        "top": "beholdersvariations:block/amber_tiling",
+        "side": "beholdersvariations:block/amber_tiling"
+    }
+}

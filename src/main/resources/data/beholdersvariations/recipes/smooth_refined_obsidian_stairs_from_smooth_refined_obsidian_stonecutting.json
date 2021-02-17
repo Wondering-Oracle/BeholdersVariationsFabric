@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:smooth_refined_obsidian"
+  },
+  "result": "beholdersvariations:smooth_refined_obsidian_stairs",
+  "count": 1
+}

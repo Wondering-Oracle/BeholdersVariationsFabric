@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "beholdersvariations:chiseled_refined_obsidian"
+      },
+      {
+        "item": "beholdersvariations:refined_obsidian"
+      },
+      {
+        "item": "beholdersvariations:refined_obsidian_pillar"
+      }
+    ]
+  },
+  "result": {
+    "item": "beholdersvariations:refined_obsidian_slab",
+    "count": 6
+  }
+}

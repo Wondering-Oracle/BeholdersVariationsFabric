@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:diamond_quartz_tiling"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:diamond_quartz_tiling_stairs",
+    "count": 4
+  }
+}

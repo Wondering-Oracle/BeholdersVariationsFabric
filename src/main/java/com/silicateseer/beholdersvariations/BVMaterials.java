@@ -7,4 +7,5 @@ import net.minecraft.block.MaterialColor;
 public class BVMaterials {
 	
 	public static final Material DECORATIVE_IMMOVABLE = (new FabricMaterialBuilder(MaterialColor.BLACK)).blocksPistons().build();
+	//needs .requiresTool().breakByTool(FabricToolTags.PICKAXES, #) in block settings
 }

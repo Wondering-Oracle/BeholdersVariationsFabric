@@ -2,6 +2,7 @@ package com.silicateseer.beholdersvariations;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -260,8 +261,210 @@ public class BeholdersVariations implements ModInitializer {
 	public static final Block DARK_PRISMARINE_BRICK_STAIRS = register("dark_prismarine_brick_stairs", 
 			new StairBlock(DARK_PRISMARINE_BRICKS), ItemGroup.BUILDING_BLOCKS);
 	
+	public static final Block REFINED_OBSIDIAN = register("refined_obsidian", 
+			new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().breakByTool(FabricToolTags.PICKAXES, 3).strength(15.0F, 1200.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_SLAB = register("refined_obsidian_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(REFINED_OBSIDIAN)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_STAIRS = register("refined_obsidian_stairs", 
+			new StairBlock(REFINED_OBSIDIAN), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_REFINED_OBSIDIAN = register("chiseled_refined_obsidian", 
+			new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().breakByTool(FabricToolTags.PICKAXES, 3).strength(15.0F, 1200.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_BRICKS = register("refined_obsidian_bricks", 
+			new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().breakByTool(FabricToolTags.PICKAXES, 3).strength(15.0F, 1200.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_TILING = register("refined_obsidian_tiling", 
+			new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().breakByTool(FabricToolTags.PICKAXES, 3).strength(15.0F, 1200.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_TILING_SLAB = register("refined_obsidian_tiling_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(REFINED_OBSIDIAN_TILING)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_TILING_STAIRS = register("refined_obsidian_tiling_stairs", 
+			new StairBlock(REFINED_OBSIDIAN_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_OBSIDIAN_PILLAR = register("refined_obsidian_pillar", 
+			new PillarBlock(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().breakByTool(FabricToolTags.PICKAXES, 3).strength(15.0F, 1200.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_REFINED_OBSIDIAN = register("smooth_refined_obsidian", 
+			new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().breakByTool(FabricToolTags.PICKAXES, 3).strength(20.0F, 1200.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_REFINED_OBSIDIAN_SLAB = register("smooth_refined_obsidian_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_REFINED_OBSIDIAN)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_REFINED_OBSIDIAN_STAIRS = register("smooth_refined_obsidian_stairs", 
+			new StairBlock(SMOOTH_REFINED_OBSIDIAN), ItemGroup.BUILDING_BLOCKS);
+	
 	//public static final Block IMMOVABLE_TEST = register("test_block", 
 	//		new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final Block SHADOW_QUARTZ = register("shadow_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SHADOW_QUARTZ_SLAB = register("shadow_quartz_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SHADOW_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SHADOW_QUARTZ_STAIRS = register("shadow_quartz_stairs", 
+			new StairBlock(SHADOW_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_SHADOW_QUARTZ = register("chiseled_shadow_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SHADOW_QUARTZ_BRICKS = register("shadow_quartz_bricks", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SHADOW_QUARTZ_TILING = register("shadow_quartz_tiling", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SHADOW_QUARTZ_TILING_SLAB = register("shadow_quartz_tiling_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SHADOW_QUARTZ_TILING)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SHADOW_QUARTZ_TILING_STAIRS = register("shadow_quartz_tiling_stairs", 
+			new StairBlock(SHADOW_QUARTZ_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SHADOW_QUARTZ_PILLAR = register("shadow_quartz_pillar", 
+			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_SHADOW_QUARTZ = register("smooth_shadow_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BLACK).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_SHADOW_QUARTZ_SLAB = register("smooth_shadow_quartz_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_SHADOW_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_SHADOW_QUARTZ_STAIRS = register("smooth_shadow_quartz_stairs", 
+			new StairBlock(SMOOTH_SHADOW_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final Block JADE = register("jade", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block JADE_SLAB = register("jade_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(JADE)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block JADE_STAIRS = register("jade_stairs", 
+			new StairBlock(JADE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_JADE = register("chiseled_jade", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block JADE_BRICKS = register("jade_bricks", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block JADE_TILING = register("jade_tiling", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block JADE_TILING_SLAB = register("jade_tiling_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(JADE_TILING)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block JADE_TILING_STAIRS = register("jade_tiling_stairs", 
+			new StairBlock(JADE_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block JADE_PILLAR = register("jade_pillar", 
+			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_JADE = register("smooth_jade", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_JADE_SLAB = register("smooth_jade_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_JADE)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_JADE_STAIRS = register("smooth_jade_stairs", 
+			new StairBlock(SMOOTH_JADE), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final Block AMBER = register("amber", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block AMBER_SLAB = register("amber_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(AMBER)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block AMBER_STAIRS = register("amber_stairs", 
+			new StairBlock(AMBER), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_AMBER = register("chiseled_amber", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block AMBER_BRICKS = register("amber_bricks", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block AMBER_TILING = register("amber_tiling", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block AMBER_TILING_SLAB = register("amber_tiling_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(AMBER_TILING)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block AMBER_TILING_STAIRS = register("amber_tiling_stairs", 
+			new StairBlock(AMBER_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block AMBER_PILLAR = register("amber_pillar", 
+			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_AMBER = register("smooth_amber", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_AMBER_SLAB = register("smooth_amber_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_AMBER)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_AMBER_STAIRS = register("smooth_amber_stairs", 
+			new StairBlock(SMOOTH_AMBER), ItemGroup.BUILDING_BLOCKS);
+	
+	/*public static final Block ROSE_QUARTZ = register("rose_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.PINK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block ROSE_QUARTZ_SLAB = register("rose_quartz_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(ROSE_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block ROSE_QUARTZ_STAIRS = register("rose_quartz_stairs", 
+			new StairBlock(ROSE_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_ROSE_QUARTZ = register("chiseled_rose_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.PINK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block ROSE_QUARTZ_BRICKS = register("rose_quartz_bricks", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.PINK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block ROSE_QUARTZ_TILING = register("rose_quartz_tiling", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.PINK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block ROSE_QUARTZ_TILING_SLAB = register("rose_quartz_tiling_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(ROSE_QUARTZ_TILING)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block ROSE_QUARTZ_TILING_STAIRS = register("rose_quartz_tiling_stairs", 
+			new StairBlock(ROSE_QUARTZ_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block ROSE_QUARTZ_PILLAR = register("rose_quartz_pillar", 
+			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.PINK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_ROSE_QUARTZ = register("smooth_rose_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.PINK).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_ROSE_QUARTZ_SLAB = register("smooth_rose_quartz_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_ROSE_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_ROSE_QUARTZ_STAIRS = register("smooth_rose_quartz_stairs", 
+			new StairBlock(SMOOTH_ROSE_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	*/
+	
+	public static final Block EMERALD_QUARTZ = register("emerald_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block EMERALD_QUARTZ_SLAB = register("emerald_quartz_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(EMERALD_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block EMERALD_QUARTZ_STAIRS = register("emerald_quartz_stairs", 
+			new StairBlock(EMERALD_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_EMERALD_QUARTZ = register("chiseled_emerald_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block EMERALD_QUARTZ_BRICKS = register("emerald_quartz_bricks", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block EMERALD_QUARTZ_TILING = register("emerald_quartz_tiling", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block EMERALD_QUARTZ_TILING_SLAB = register("emerald_quartz_tiling_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(EMERALD_QUARTZ_TILING)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block EMERALD_QUARTZ_TILING_STAIRS = register("emerald_quartz_tiling_stairs", 
+			new StairBlock(EMERALD_QUARTZ_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block EMERALD_QUARTZ_PILLAR = register("emerald_quartz_pillar", 
+			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_EMERALD_QUARTZ = register("smooth_emerald_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_EMERALD_QUARTZ_SLAB = register("smooth_emerald_quartz_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_EMERALD_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_EMERALD_QUARTZ_STAIRS = register("smooth_emerald_quartz_stairs", 
+			new StairBlock(SMOOTH_EMERALD_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final Block DIAMOND_QUARTZ = register("diamond_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block DIAMOND_QUARTZ_SLAB = register("diamond_quartz_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(DIAMOND_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block DIAMOND_QUARTZ_STAIRS = register("diamond_quartz_stairs", 
+			new StairBlock(DIAMOND_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_DIAMOND_QUARTZ = register("chiseled_diamond_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block DIAMOND_QUARTZ_BRICKS = register("diamond_quartz_bricks", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block DIAMOND_QUARTZ_TILING = register("diamond_quartz_tiling", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block DIAMOND_QUARTZ_TILING_SLAB = register("diamond_quartz_tiling_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(DIAMOND_QUARTZ_TILING)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block DIAMOND_QUARTZ_TILING_STAIRS = register("diamond_quartz_tiling_stairs", 
+			new StairBlock(DIAMOND_QUARTZ_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block DIAMOND_QUARTZ_PILLAR = register("diamond_quartz_pillar", 
+			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_DIAMOND_QUARTZ = register("smooth_diamond_quartz", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_DIAMOND_QUARTZ_SLAB = register("smooth_diamond_quartz_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_DIAMOND_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_DIAMOND_QUARTZ_STAIRS = register("smooth_diamond_quartz_stairs", 
+			new StairBlock(SMOOTH_DIAMOND_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	
+	/*public static final Block REFINED_AMETHYST = register("refined_amethyst", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.PURPLE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_AMETHYST_SLAB = register("refined_amethyst_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(REFINED_AMETHYST)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_AMETHYST_STAIRS = register("refined_amethyst_stairs", 
+			new StairBlock(REFINED_AMETHYST), ItemGroup.BUILDING_BLOCKS);
+	public static final Block CHISELED_REFINED_AMETHYST = register("chiseled_refined_amethyst", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.PURPLE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_AMETHYST_BRICKS = register("refined_amethyst_bricks", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.PURPLE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_AMETHYST_TILING = register("refined_amethyst_tiling", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.PURPLE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_AMETHYST_TILING_SLAB = register("refined_amethyst_tiling_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(REFINED_AMETHYST_TILING)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_AMETHYST_TILING_STAIRS = register("refined_amethyst_tiling_stairs", 
+			new StairBlock(REFINED_AMETHYST_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block REFINED_AMETHYST_PILLAR = register("refined_amethyst_pillar", 
+			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.PURPLE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_REFINED_AMETHYST = register("smooth_refined_amethyst", 
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.PURPLE).requiresTool().strength(2.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_REFINED_AMETHYST_SLAB = register("smooth_refined_amethyst_slab", 
+			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_REFINED_AMETHYST)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_REFINED_AMETHYST_STAIRS = register("smooth_refined_amethyst_stairs", 
+			new StairBlock(SMOOTH_REFINED_AMETHYST), ItemGroup.BUILDING_BLOCKS);
+	*/
 	
 	@Override
 	public void onInitialize() {

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:emerald_quartz"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:emerald_quartz_pillar",
+    "count": 2
+  }
+}

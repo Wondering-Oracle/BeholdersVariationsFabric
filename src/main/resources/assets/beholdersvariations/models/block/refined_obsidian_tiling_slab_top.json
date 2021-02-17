@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "beholdersvariations:block/refined_obsidian_tiling",
+        "top": "beholdersvariations:block/refined_obsidian_tiling",
+        "side": "beholdersvariations:block/refined_obsidian_tiling"
+    }
+}
