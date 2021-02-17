@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "beholdersvariations:chiseled_emerald_quartz"
+      },
+      {
+        "item": "beholdersvariations:emerald_quartz"
+      },
+      {
+        "item": "beholdersvariations:emerald_quartz_pillar"
+      }
+    ]
+  },
+  "result": {
+    "item": "beholdersvariations:emerald_quartz_slab",
+    "count": 6
+  }
+}

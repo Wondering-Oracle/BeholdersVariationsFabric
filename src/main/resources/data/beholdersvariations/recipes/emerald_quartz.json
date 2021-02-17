@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_block"
+    },
+    "@": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:emerald_quartz",
+    "count": 8
+  }
+}
