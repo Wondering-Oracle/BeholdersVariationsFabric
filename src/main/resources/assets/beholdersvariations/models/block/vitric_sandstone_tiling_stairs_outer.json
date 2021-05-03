@@ -1,8 +1,8 @@
 {
     "parent": "block/outer_stairs",
     "textures": {
-        "bottom": "beholdersvariations:block/sandstone_tiling",
-        "top": "beholdersvariations:block/sandstone_tiling",
-        "side": "beholdersvariations:block/sandstone_tiling"
+        "bottom": "beholdersvariations:block/vitric_sandstone_tiling",
+        "top": "beholdersvariations:block/vitric_sandstone_tiling",
+        "side": "beholdersvariations:block/vitric_sandstone_tiling"
     }
 }

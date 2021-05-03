@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "beholdersvariations:block/sandstone_tiling"
+        "all": "beholdersvariations:block/vitric_sandstone_tiling"
     }
 }

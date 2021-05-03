@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "type=bottom": { "model": "beholdersvariations:block/smooth_shadow_quartz_slab" },
-        "type=top": { "model": "beholdersvariations:block/smooth_shadow_quartz_slab_top" },
-        "type=double": { "model": "beholdersvariations:block/smooth_shadow_quartz" }
-    }
-}

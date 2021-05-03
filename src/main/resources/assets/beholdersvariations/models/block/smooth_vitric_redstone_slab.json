@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "beholdersvariations:block/smooth_vitric_redstone",
+        "top": "beholdersvariations:block/smooth_vitric_redstone",
+        "side": "beholdersvariations:block/smooth_vitric_redstone"
+    }
+}
