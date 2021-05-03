@@ -43,7 +43,7 @@
 	"block.beholdersvariations.smooth_vitric_red_sandstone_stairs": "Smooth Vitric Red Sandstone Stairs",
 	"block.beholdersvariations.vitric_red_sandstone_pillar": "Vitric Red Sandstone Pillar",
 	"block.beholdersvariations.chiseled_vitric_red_sandstone": "Chiseled Vitric Red Sandstone",
-	
+
 	"block.minecraft.dark_prismarine": "Dark Prismarine Tiling",
 	"block.minecraft.dark_prismarine_slab": "Dark Prismarine Tiling Slab",
 	"block.minecraft.dark_prismarine_stairs": "Dark Prismarine Tiling Stairs",
@@ -117,7 +117,7 @@
 	"block.beholdersvariations.vitric_sandstone_bricks": "Vitric Sandstone Bricks",
 	"block.beholdersvariations.vitric_red_sandstone_bricks": "Vitric Red Sandstone Bricks",
 	"block.beholdersvariations.vitric_soulsandstone_bricks": "Vitric Soulsandstone Bricks",
-	
+
 	"block.beholdersvariations.refined_obsidian": "Refined Obsidian",
 	"block.beholdersvariations.refined_obsidian_slab": "Refined Obsidian Slab",
 	"block.beholdersvariations.refined_obsidian_stairs": "Refined Obsidian Stairs",
@@ -178,8 +178,17 @@
 	"block.beholdersvariations.diamond_quartz_tiling": "Diamond Quartz Tiling",
 	"block.beholdersvariations.diamond_quartz_tiling_slab": "Diamond Quartz Tiling Slab",
 	"block.beholdersvariations.diamond_quartz_tiling_stairs": "Diamond Quartz Tiling Stairs",
-	
+
 	"block.beholdersvariations.black_sand": "Black Sand",
+	"block.beholdersvariations.black_sandstone": "Black Sandstone",
+	"block.beholdersvariations.black_sandstone_slab": "Black Sandstone Slab",
+	"block.beholdersvariations.black_sandstone_stairs": "Black Sandstone Stairs",
+	"block.beholdersvariations.smooth_black_sandstone": "Smooth Black Sandstone",
+	"block.beholdersvariations.smooth_black_sandstone_slab": "Smooth Black Sandstone Slab",
+	"block.beholdersvariations.smooth_black_sandstone_stairs": "Smooth Black Sandstone Stairs",
+	"block.beholdersvariations.cut_black_sandstone": "Cut Black Sandstone",
+	"block.beholdersvariations.cut_black_sandstone_slab": "Cut Black Sandstone Slab",
+	"block.beholdersvariations.chiseled_black_sandstone": "Chiseled Black Sandstone",
 	"block.beholdersvariations.vitric_black_sandstone": "Vitric Black Sandstone",
 	"block.beholdersvariations.vitric_black_sandstone_slab": "Vitric Black Sandstone Slab",
 	"block.beholdersvariations.vitric_black_sandstone_stairs": "Vitric Black Sandstone Stairs",
@@ -204,5 +213,13 @@
 	"block.beholdersvariations.vitric_redstone_tiling": "Vitric Redstone Tiling",
 	"block.beholdersvariations.vitric_redstone_tiling_slab": "Vitric Redstone Tiling Slab",
 	"block.beholdersvariations.vitric_redstone_tiling_stairs": "Vitric Redstone Tiling Stairs",
-	"block.beholdersvariations.compact_redstone_block": "Compact Redstone Block"
+	"block.beholdersvariations.compact_redstone_block": "Compact Redstone Block",
+	"block.beholdersvariations.gem_cut_redstone_block": "Gem-Cut Redstone Block",
+	"block.beholdersvariations.gem_cut_diamond_block": "Gem-Cut Diamond Block",
+	"block.beholdersvariations.gem_cut_amber": "Gem-Cut Amber",
+	"block.beholdersvariations.gem_cut_jade": "Gem-Cut Jade",
+	"block.beholdersvariations.gem_cut_quartz": "Gem-Cut Quartz",
+	"block.beholdersvariations.gem_cut_prism_quartz": "Gem-Cut Prism Quartz",
+	"block.beholdersvariations.gem_cut_vitric_prismarine": "Gem-Cut Vitric Prismarine",
+	"block.beholdersvariations.gem_cut_vitric_dark_prismarine": "Gem-Cut Vitric Dark Prismarine"
 }
