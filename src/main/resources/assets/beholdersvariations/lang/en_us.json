@@ -236,5 +236,9 @@
 	"block.beholdersvariations.smooth_prismarine_sandstone_wall": "Smooth Prismarine Sandstone Wall",
 	"block.beholdersvariations.dark_prismarine_sandstone_wall": "Dark Prismarine Sandstone Wall",
 	"block.beholdersvariations.cut_dark_prismarine_sandstone_wall": "Cut Dark Prismarine Sandstone Wall",
-	"block.beholdersvariations.smooth_dark_prismarine_sandstone_wall": "Smooth Dark Prismarine Sandstone Wall"
+	"block.beholdersvariations.smooth_dark_prismarine_sandstone_wall": "Smooth Dark Prismarine Sandstone Wall",
+	"block.beholdersvariations.refined_obsidian_wall": "Refined Obsidian Wall",
+	"block.beholdersvariations.refined_obsidian_brick_wall": "Refined Obsidian Brick Wall",
+	"block.beholdersvariations.refined_obsidian_tiling_wall": "Refined Obsidian Tiling Wall",
+	"block.beholdersvariations.smooth_refined_obsidian_wall": "Smooth Refined Obsidian Wall"
 }

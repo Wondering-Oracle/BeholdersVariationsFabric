@@ -15,6 +15,10 @@
     "beholdersvariations:smooth_soulsandstone_wall",
     "beholdersvariations:smooth_prismarine_sandstone_wall",
     "beholdersvariations:smooth_dark_prismarine_sandstone_wall",
-    "beholdersvariations:smooth_black_sandstone_wall"
+    "beholdersvariations:smooth_black_sandstone_wall",
+    "beholdersvariations:refined_obsidian_wall",
+  	"beholdersvariations:refined_obsidian_brick_wall",
+  	"beholdersvariations:refined_obsidian_tiling_wall",
+  	"beholdersvariations:smooth_refined_obsidian_wall"
   ]
 }
