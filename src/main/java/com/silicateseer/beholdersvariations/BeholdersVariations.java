@@ -58,6 +58,8 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(QUARTZ_TILING)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block QUARTZ_TILING_STAIRS = register("quartz_tiling_stairs", 
 			new StairBlock(QUARTZ_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block QUARTZ_TILING_WALL = register("quartz_tiling_wall", 
+			new WallBlock(FabricBlockSettings.copy(QUARTZ_TILING)), ItemGroup.DECORATIONS);
 	public static final Block GEM_CUT_QUARTZ = register("gem_cut_quartz", 
 			new Block(FabricBlockSettings.of(Material.METAL, MaterialColor.QUARTZ).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)), ItemGroup.BUILDING_BLOCKS);
 	
@@ -220,10 +222,14 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(VITRIC_PRISMARINE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_PRISMARINE_STAIRS = register("vitric_prismarine_stairs", 
 			new StairBlock(VITRIC_PRISMARINE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_PRISMARINE_WALL = register("vitric_prismarine_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_PRISMARINE)), ItemGroup.DECORATIONS);
 	public static final Block CHISELED_VITRIC_PRISMARINE = register("chiseled_vitric_prismarine", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_PRISMARINE_BRICKS = register("vitric_prismarine_bricks", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_PRISMARINE_BRICK_WALL = register("vitric_prismarine_brick_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_PRISMARINE_BRICKS)), ItemGroup.DECORATIONS);
 	public static final Block VITRIC_PRISMARINE_PILLAR = register("vitric_prismarine_pillar", 
 			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_PRISMARINE = register("smooth_vitric_prismarine", 
@@ -232,6 +238,8 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_VITRIC_PRISMARINE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_PRISMARINE_STAIRS = register("smooth_vitric_prismarine_stairs", 
 			new StairBlock(SMOOTH_VITRIC_PRISMARINE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_VITRIC_PRISMARINE_WALL = register("smooth_vitric_prismarine_wall", 
+			new WallBlock(FabricBlockSettings.copy(SMOOTH_VITRIC_PRISMARINE)), ItemGroup.DECORATIONS);
 	public static final Block GEM_CUT_VITRIC_PRISMARINE = register("gem_cut_vitric_prismarine", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(5.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
 	
@@ -241,6 +249,8 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(PRISMARINE_TILING)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block PRISMARINE_TILING_STAIRS = register("prismarine_tiling_stairs", 
 			new StairBlock(PRISMARINE_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISMARINE_TILING_WALL = register("prismarine_tiling_wall", 
+			new WallBlock(FabricBlockSettings.copy(PRISMARINE_TILING)), ItemGroup.DECORATIONS);
 	
 	public static final Block DARK_PRISMARINE_SANDSTONE = register("dark_prismarine_sandstone", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
@@ -272,10 +282,14 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(VITRIC_DARK_PRISMARINE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_DARK_PRISMARINE_STAIRS = register("vitric_dark_prismarine_stairs", 
 			new StairBlock(VITRIC_DARK_PRISMARINE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_DARK_PRISMARINE_WALL = register("vitric_dark_prismarine_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_DARK_PRISMARINE)), ItemGroup.DECORATIONS);
 	public static final Block CHISELED_VITRIC_DARK_PRISMARINE = register("chiseled_vitric_dark_prismarine", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_DARK_PRISMARINE_BRICKS = register("vitric_dark_prismarine_bricks", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_DARK_PRISMARINE_BRICK_WALL = register("vitric_dark_prismarine_brick_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_DARK_PRISMARINE_BRICKS)), ItemGroup.DECORATIONS);
 	public static final Block VITRIC_DARK_PRISMARINE_PILLAR = register("vitric_dark_prismarine_pillar", 
 			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_DARK_PRISMARINE = register("smooth_vitric_dark_prismarine", 
@@ -284,6 +298,8 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_VITRIC_DARK_PRISMARINE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_DARK_PRISMARINE_STAIRS = register("smooth_vitric_dark_prismarine_stairs", 
 			new StairBlock(SMOOTH_VITRIC_DARK_PRISMARINE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_VITRIC_DARK_PRISMARINE_WALL = register("smooth_vitric_dark_prismarine_wall", 
+			new WallBlock(FabricBlockSettings.copy(SMOOTH_VITRIC_DARK_PRISMARINE)), ItemGroup.DECORATIONS);
 	public static final Block GEM_CUT_VITRIC_DARK_PRISMARINE = register("gem_cut_vitric_dark_prismarine", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(5.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
 	
@@ -293,6 +309,8 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(DARK_PRISMARINE_BRICKS)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block DARK_PRISMARINE_BRICK_STAIRS = register("dark_prismarine_brick_stairs", 
 			new StairBlock(DARK_PRISMARINE_BRICKS), ItemGroup.BUILDING_BLOCKS);
+	public static final Block DARK_PRISMARINE_BRICK_WALL = register("dark_prismarine_brick_wall", 
+			new WallBlock(FabricBlockSettings.copy(DARK_PRISMARINE_BRICKS)), ItemGroup.DECORATIONS);
 	
 	public static final Block REFINED_OBSIDIAN = register("refined_obsidian", 
 			new Block(FabricBlockSettings.of(BVMaterials.DECORATIVE_IMMOVABLE, MaterialColor.BLACK).requiresTool().breakByTool(FabricToolTags.PICKAXES, 3).strength(15.0F, 1200.0F)), ItemGroup.BUILDING_BLOCKS);

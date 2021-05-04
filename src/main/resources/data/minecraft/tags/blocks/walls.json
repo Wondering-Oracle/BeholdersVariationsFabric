@@ -16,9 +16,21 @@
     "beholdersvariations:smooth_prismarine_sandstone_wall",
     "beholdersvariations:smooth_dark_prismarine_sandstone_wall",
     "beholdersvariations:smooth_black_sandstone_wall",
+
     "beholdersvariations:refined_obsidian_wall",
-  	"beholdersvariations:refined_obsidian_brick_wall",
-  	"beholdersvariations:refined_obsidian_tiling_wall",
-  	"beholdersvariations:smooth_refined_obsidian_wall"
+    "beholdersvariations:refined_obsidian_brick_wall",
+    "beholdersvariations:refined_obsidian_tiling_wall",
+    "beholdersvariations:smooth_refined_obsidian_wall",
+
+    "beholdersvariations:quartz_tiling_wall",
+    "beholdersvariations:prismarine_tiling_wall",
+    "beholdersvariations:dark_prismarine_brick_wall",
+    "beholdersvariations:vitric_prismarine_wall",
+    "beholdersvariations:vitric_prismarine_brick_wall",
+    "beholdersvariations:smooth_vitric_prismarine_wall",
+    "beholdersvariations:vitric_dark_prismarine_wall",
+    "beholdersvariations:vitric_dark_prismarine_brick_wall",
+    "beholdersvariations:smooth_vitric_dark_prismarine_wall"
+
   ]
 }
