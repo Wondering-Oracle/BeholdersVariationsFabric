@@ -171,16 +171,22 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(PRISM_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block PRISM_QUARTZ_STAIRS = register("prism_quartz_stairs", 
 			new StairBlock(PRISM_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISM_QUARTZ_WALL = register("prism_quartz_wall", 
+					new WallBlock(FabricBlockSettings.copy(PRISM_QUARTZ)), ItemGroup.DECORATIONS);
 	public static final Block CHISELED_PRISM_QUARTZ = register("chiseled_prism_quartz", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.CYAN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block PRISM_QUARTZ_BRICKS = register("prism_quartz_bricks", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.CYAN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISM_QUARTZ_BRICK_WALL = register("prism_quartz_brick_wall", 
+			new WallBlock(FabricBlockSettings.copy(PRISM_QUARTZ_BRICKS)), ItemGroup.DECORATIONS);
 	public static final Block PRISM_QUARTZ_TILING = register("prism_quartz_tiling", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.CYAN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block PRISM_QUARTZ_TILING_SLAB = register("prism_quartz_tiling_slab", 
 			new SlabBlock(FabricBlockSettings.copyOf(PRISM_QUARTZ_TILING)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block PRISM_QUARTZ_TILING_STAIRS = register("prism_quartz_tiling_stairs", 
 			new StairBlock(PRISM_QUARTZ_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block PRISM_QUARTZ_TILING_WALL = register("prism_quartz_tiling_wall", 
+			new WallBlock(FabricBlockSettings.copy(PRISM_QUARTZ_TILING)), ItemGroup.DECORATIONS);
 	public static final Block PRISM_QUARTZ_PILLAR = register("prism_quartz_pillar", 
 			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.CYAN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_PRISM_QUARTZ = register("smooth_prism_quartz", 
@@ -189,6 +195,8 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_PRISM_QUARTZ)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_PRISM_QUARTZ_STAIRS = register("smooth_prism_quartz_stairs", 
 			new StairBlock(SMOOTH_PRISM_QUARTZ), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_PRISM_QUARTZ_WALL = register("smooth_prism_quartz_wall", 
+			new WallBlock(FabricBlockSettings.copy(SMOOTH_PRISM_QUARTZ)), ItemGroup.DECORATIONS);
 	public static final Block GEM_CUT_PRISM_QUARTZ = register("gem_cut_prism_quartz", 
 			new Block(FabricBlockSettings.of(Material.METAL, MaterialColor.CYAN).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)), ItemGroup.BUILDING_BLOCKS);
 	
@@ -380,16 +388,22 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(JADE_BLOCK)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block JADE_STAIRS = register("jade_stairs", 
 			new StairBlock(JADE_BLOCK), ItemGroup.BUILDING_BLOCKS);
+	public static final Block JADE_BLOCK_WALL = register("jade_wall", 
+			new WallBlock(FabricBlockSettings.copy(JADE_BLOCK)), ItemGroup.DECORATIONS);
 	public static final Block CHISELED_JADE = register("chiseled_jade", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block JADE_BRICKS = register("jade_bricks", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block JADE_BRICK_WALL = register("jade_brick_wall", 
+			new WallBlock(FabricBlockSettings.copy(JADE_BRICKS)), ItemGroup.DECORATIONS);
 	public static final Block JADE_TILING = register("jade_tiling", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block JADE_TILING_SLAB = register("jade_tiling_slab", 
 			new SlabBlock(FabricBlockSettings.copyOf(JADE_TILING)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block JADE_TILING_STAIRS = register("jade_tiling_stairs", 
 			new StairBlock(JADE_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block JADE_TILING_WALL = register("jade_tiling_wall", 
+			new WallBlock(FabricBlockSettings.copy(JADE_TILING)), ItemGroup.DECORATIONS);
 	public static final Block JADE_PILLAR = register("jade_pillar", 
 			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_JADE = register("smooth_jade", 
@@ -398,6 +412,8 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_JADE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_JADE_STAIRS = register("smooth_jade_stairs", 
 			new StairBlock(SMOOTH_JADE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_JADE__WALL = register("smooth_jade_wall", 
+			new WallBlock(FabricBlockSettings.copy(SMOOTH_JADE)), ItemGroup.DECORATIONS);
 	public static final Block GEM_CUT_JADE = register("gem_cut_jade", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GREEN).requiresTool().strength(5.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
 	
@@ -407,16 +423,22 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(AMBER_BLOCK)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block AMBER_STAIRS = register("amber_stairs", 
 			new StairBlock(AMBER_BLOCK), ItemGroup.BUILDING_BLOCKS);
+	public static final Block AMBER_WALL = register("amber_wall", 
+			new WallBlock(FabricBlockSettings.copy(AMBER_BLOCK)), ItemGroup.DECORATIONS);
 	public static final Block CHISELED_AMBER = register("chiseled_amber", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block AMBER_BRICKS = register("amber_bricks", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block AMBER_BRICK_WALL = register("amber_brick_wall", 
+			new WallBlock(FabricBlockSettings.copy(AMBER_BRICKS)), ItemGroup.DECORATIONS);
 	public static final Block AMBER_TILING = register("amber_tiling", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block AMBER_TILING_SLAB = register("amber_tiling_slab", 
 			new SlabBlock(FabricBlockSettings.copyOf(AMBER_TILING)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block AMBER_TILING_STAIRS = register("amber_tiling_stairs", 
 			new StairBlock(AMBER_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block AMBER_TILING_WALL = register("amber_tiling_wall", 
+			new WallBlock(FabricBlockSettings.copy(AMBER_TILING)), ItemGroup.DECORATIONS);
 	public static final Block AMBER_PILLAR = register("amber_pillar", 
 			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_AMBER = register("smooth_amber", 
@@ -425,6 +447,8 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_AMBER)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_AMBER_STAIRS = register("smooth_amber_stairs", 
 			new StairBlock(SMOOTH_AMBER), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_AMBER_WALL = register("smooth_amber_wall", 
+			new WallBlock(FabricBlockSettings.copy(SMOOTH_AMBER)), ItemGroup.DECORATIONS);
 	public static final Block GEM_CUT_AMBER = register("gem_cut_amber", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(5.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
 	
