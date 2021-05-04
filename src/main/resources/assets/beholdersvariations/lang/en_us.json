@@ -221,5 +221,20 @@
 	"block.beholdersvariations.gem_cut_quartz": "Gem-Cut Quartz",
 	"block.beholdersvariations.gem_cut_prism_quartz": "Gem-Cut Prism Quartz",
 	"block.beholdersvariations.gem_cut_vitric_prismarine": "Gem-Cut Vitric Prismarine",
-	"block.beholdersvariations.gem_cut_vitric_dark_prismarine": "Gem-Cut Vitric Dark Prismarine"
+	"block.beholdersvariations.gem_cut_vitric_dark_prismarine": "Gem-Cut Vitric Dark Prismarine",
+	"block.beholdersvariations.silicastone_wall": "Silicastone Wall",
+	"block.beholdersvariations.cut_silicastone_wall": "Cut Silicastone Wall",
+	"block.beholdersvariations.smooth_silicastone_wall": "Smooth Silicastone Wall",
+	"block.beholdersvariations.soulsandstone_wall": "Soulsandstone Wall",
+	"block.beholdersvariations.cut_soulsandstone_wall": "Cut Soulsandstone Wall",
+	"block.beholdersvariations.smooth_soulsandstone_wall": "Smooth Soulsandstone Wall",
+	"block.beholdersvariations.black_sandstone_wall": "Black Sandstone Wall",
+	"block.beholdersvariations.cut_black_sandstone_wall": "Cut Black Sandstone Wall",
+	"block.beholdersvariations.smooth_black_sandstone_wall": "Smooth Black Sandstone Wall",
+	"block.beholdersvariations.prismarine_sandstone_wall": "Prismarine Sandstone Wall",
+	"block.beholdersvariations.cut_prismarine_sandstone_wall": "Cut Prismarine Sandstone Wall",
+	"block.beholdersvariations.smooth_prismarine_sandstone_wall": "Smooth Prismarine Sandstone Wall",
+	"block.beholdersvariations.dark_prismarine_sandstone_wall": "Dark Prismarine Sandstone Wall",
+	"block.beholdersvariations.cut_dark_prismarine_sandstone_wall": "Cut Dark Prismarine Sandstone Wall",
+	"block.beholdersvariations.smooth_dark_prismarine_sandstone_wall": "Smooth Dark Prismarine Sandstone Wall"
 }

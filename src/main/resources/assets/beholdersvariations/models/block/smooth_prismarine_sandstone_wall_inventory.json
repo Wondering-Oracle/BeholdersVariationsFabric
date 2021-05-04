@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "beholdersvariations:block/prismarine_sandstone_top"
+  }
+}

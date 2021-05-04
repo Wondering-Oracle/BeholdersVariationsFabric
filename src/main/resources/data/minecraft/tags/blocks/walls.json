@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "beholdersvariations:silicastone_wall",
+    "beholdersvariations:soulsandstone_wall",
+    "beholdersvariations:prismarine_sandstone_wall",
+    "beholdersvariations:dark_prismarine_sandstone_wall",
+    "beholdersvariations:black_sandstone_wall",
+    "beholdersvariations:cut_silicastone_wall",
+    "beholdersvariations:cut_soulsandstone_wall",
+    "beholdersvariations:cut_prismarine_sandstone_wall",
+    "beholdersvariations:cut_dark_prismarine_sandstone_wall",
+    "beholdersvariations:cut_black_sandstone_wall",
+    "beholdersvariations:smooth_silicastone_wall",
+    "beholdersvariations:smooth_soulsandstone_wall",
+    "beholdersvariations:smooth_prismarine_sandstone_wall",
+    "beholdersvariations:smooth_dark_prismarine_sandstone_wall",
+    "beholdersvariations:smooth_black_sandstone_wall"
+  ]
+}
