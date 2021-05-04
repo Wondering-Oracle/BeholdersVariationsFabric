@@ -69,16 +69,22 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(VITRIC_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_SANDSTONE_STAIRS = register("vitric_sandstone_stairs", 
 			new StairBlock(VITRIC_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_SANDSTONE_WALL = register("vitric_sandstone_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_SANDSTONE)), ItemGroup.DECORATIONS);
 	public static final Block CHISELED_VITRIC_SANDSTONE = register("chiseled_vitric_sandstone", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.SAND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_SANDSTONE_BRICKS = register("vitric_sandstone_bricks", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.SAND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_SANDSTONE_BRICK_WALL = register("vitric_sandstone_brick_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_SANDSTONE_BRICKS)), ItemGroup.DECORATIONS);
 	public static final Block VITRIC_SANDSTONE_TILING = register("vitric_sandstone_tiling", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.SAND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_SANDSTONE_TILING_SLAB = register("vitric_sandstone_tiling_slab", 
 			new SlabBlock(FabricBlockSettings.copyOf(VITRIC_SANDSTONE_TILING)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_SANDSTONE_TILING_STAIRS = register("vitric_sandstone_tiling_stairs", 
 			new StairBlock(VITRIC_SANDSTONE_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_SANDSTONE_TILING_WALL = register("vitric_sandstone_tiling_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_SANDSTONE_TILING)), ItemGroup.DECORATIONS);
 	public static final Block VITRIC_SANDSTONE_PILLAR = register("vitric_sandstone_pillar", 
 			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.SAND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_SANDSTONE = register("smooth_vitric_sandstone", 
@@ -87,6 +93,8 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_VITRIC_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_SANDSTONE_STAIRS = register("smooth_vitric_sandstone_stairs", 
 			new StairBlock(SMOOTH_VITRIC_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_VITRIC_SANDSTONE_WALL = register("smooth_vitric_sandstone_wall", 
+			new WallBlock(FabricBlockSettings.copy(SMOOTH_VITRIC_SANDSTONE)), ItemGroup.DECORATIONS);
 	
 	public static final Block VITRIC_RED_SANDSTONE = register("vitric_red_sandstone", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
@@ -94,16 +102,22 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(VITRIC_RED_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_RED_SANDSTONE_STAIRS = register("vitric_red_sandstone_stairs", 
 			new StairBlock(VITRIC_RED_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_RED_SANDSTONE_WALL = register("vitric_red_sandstone_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_RED_SANDSTONE)), ItemGroup.DECORATIONS);
 	public static final Block CHISELED_VITRIC_RED_SANDSTONE = register("chiseled_vitric_red_sandstone", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_RED_SANDSTONE_BRICKS = register("vitric_red_sandstone_bricks", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_RED_SANDSTONE_BRICK_WALL = register("vitric_red_sandstone_brick_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_RED_SANDSTONE_BRICKS)), ItemGroup.DECORATIONS);
 	public static final Block VITRIC_RED_SANDSTONE_TILING = register("vitric_red_sandstone_tiling", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_RED_SANDSTONE_TILING_SLAB = register("vitric_red_sandstone_tiling_slab", 
 			new SlabBlock(FabricBlockSettings.copyOf(VITRIC_RED_SANDSTONE_TILING)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_RED_SANDSTONE_TILING_STAIRS = register("vitric_red_sandstone_tiling_stairs", 
 			new StairBlock(VITRIC_RED_SANDSTONE_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_RED_SANDSTONE_TILING_WALL = register("vitric_red_sandstone_tiling_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_RED_SANDSTONE_TILING)), ItemGroup.DECORATIONS);
 	public static final Block VITRIC_RED_SANDSTONE_PILLAR = register("vitric_red_sandstone_pillar", 
 			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.ORANGE).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_RED_SANDSTONE = register("smooth_vitric_red_sandstone", 
@@ -112,6 +126,8 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_VITRIC_RED_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_RED_SANDSTONE_STAIRS = register("smooth_vitric_red_sandstone_stairs", 
 			new StairBlock(SMOOTH_VITRIC_RED_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_VITRIC_RED_SANDSTONE_WALL = register("smooth_vitric_red_sandstone_wall", 
+			new WallBlock(FabricBlockSettings.copy(SMOOTH_VITRIC_RED_SANDSTONE)), ItemGroup.DECORATIONS);
 	
 	public static final Block SOULSANDSTONE = register("soulsandstone", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BROWN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
@@ -143,16 +159,22 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(VITRIC_SOULSANDSTONE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_SOULSANDSTONE_STAIRS = register("vitric_soulsandstone_stairs", 
 			new StairBlock(VITRIC_SOULSANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_SOULSANDSTONE_WALL = register("vitric_soulsandstone_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_SOULSANDSTONE)), ItemGroup.DECORATIONS);
 	public static final Block CHISELED_VITRIC_SOULSANDSTONE = register("chiseled_vitric_soulsandstone", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BROWN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_SOULSANDSTONE_BRICKS = register("vitric_soulsandstone_bricks", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BROWN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_SOULSANDSTONE_BRICK_WALL = register("vitric_soulsandstone_brick_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_SOULSANDSTONE_BRICKS)), ItemGroup.DECORATIONS);
 	public static final Block VITRIC_SOULSANDSTONE_TILING = register("vitric_soulsandstone_tiling", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BROWN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_SOULSANDSTONE_TILING_SLAB = register("vitric_soulsandstone_tiling_slab", 
 			new SlabBlock(FabricBlockSettings.copyOf(VITRIC_SOULSANDSTONE_TILING)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_SOULSANDSTONE_TILING_STAIRS = register("vitric_soulsandstone_tiling_stairs", 
 			new StairBlock(VITRIC_SOULSANDSTONE_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_SOULSANDSTONE_TILING_WALL = register("vitric_soulsandstone_tiling_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_SOULSANDSTONE_TILING)), ItemGroup.DECORATIONS);
 	public static final Block VITRIC_SOULSANDSTONE_PILLAR = register("vitric_soulsandstone_pillar", 
 			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.BROWN).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_SOULSANDSTONE = register("smooth_vitric_soulsandstone", 
@@ -161,6 +183,8 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_VITRIC_SOULSANDSTONE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_SOULSANDSTONE_STAIRS = register("smooth_vitric_soulsandstone_stairs", 
 			new StairBlock(SMOOTH_VITRIC_SOULSANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_VITRIC_SOULSANDSTONE_WALL = register("smooth_vitric_soulsandstone_wall", 
+			new WallBlock(FabricBlockSettings.copy(SMOOTH_VITRIC_SOULSANDSTONE)), ItemGroup.DECORATIONS);
 	
 	public static final Block PRISMARINE_SAND = register("prismarine_sand", 
 			new SandBlock(6200996, FabricBlockSettings.of(Material.AGGREGATE, MaterialColor.CYAN).strength(0.5F).sounds(BlockSoundGroup.SAND)), ItemGroup.BUILDING_BLOCKS);
@@ -595,16 +619,22 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(VITRIC_BLACK_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_BLACK_SANDSTONE_STAIRS = register("vitric_black_sandstone_stairs", 
 			new StairBlock(VITRIC_BLACK_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_BLACK_SANDSTONE_WALL = register("vitric_black_sandstone_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_BLACK_SANDSTONE)), ItemGroup.DECORATIONS);
 	public static final Block CHISELED_VITRIC_BLACK_SANDSTONE = register("chiseled_vitric_black_sandstone", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_BLACK_SANDSTONE_BRICKS = register("vitric_black_sandstone_bricks", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_BLACK_SANDSTONE_BRICK_WALL = register("vitric_black_sandstone_brick_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_BLACK_SANDSTONE_BRICKS)), ItemGroup.DECORATIONS);
 	public static final Block VITRIC_BLACK_SANDSTONE_TILING = register("vitric_black_sandstone_tiling", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_BLACK_SANDSTONE_TILING_SLAB = register("vitric_black_sandstone_tiling_slab", 
 			new SlabBlock(FabricBlockSettings.copyOf(VITRIC_BLACK_SANDSTONE_TILING)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block VITRIC_BLACK_SANDSTONE_TILING_STAIRS = register("vitric_black_sandstone_tiling_stairs", 
 			new StairBlock(VITRIC_BLACK_SANDSTONE_TILING), ItemGroup.BUILDING_BLOCKS);
+	public static final Block VITRIC_BLACK_SANDSTONE_TILING_WALL = register("vitric_black_sandstone_tiling_wall", 
+			new WallBlock(FabricBlockSettings.copy(VITRIC_BLACK_SANDSTONE_TILING)), ItemGroup.DECORATIONS);
 	public static final Block VITRIC_BLACK_SANDSTONE_PILLAR = register("vitric_black_sandstone_pillar", 
 			new PillarBlock(FabricBlockSettings.of(Material.STONE, MaterialColor.BLACK).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_BLACK_SANDSTONE = register("smooth_vitric_black_sandstone", 
@@ -613,6 +643,8 @@ public class BeholdersVariations implements ModInitializer {
 			new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_VITRIC_BLACK_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
 	public static final Block SMOOTH_VITRIC_BLACK_SANDSTONE_STAIRS = register("smooth_vitric_black_sandstone_stairs", 
 			new StairBlock(SMOOTH_VITRIC_BLACK_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final Block SMOOTH_VITRIC_BLACK_SANDSTONE_WALL = register("smooth_vitric_black_sandstone_wall", 
+			new WallBlock(FabricBlockSettings.copy(SMOOTH_VITRIC_BLACK_SANDSTONE)), ItemGroup.DECORATIONS);
 	
 	
 	

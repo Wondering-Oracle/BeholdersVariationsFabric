@@ -16,12 +16,10 @@
     "beholdersvariations:smooth_prismarine_sandstone_wall",
     "beholdersvariations:smooth_dark_prismarine_sandstone_wall",
     "beholdersvariations:smooth_black_sandstone_wall",
-
     "beholdersvariations:refined_obsidian_wall",
     "beholdersvariations:refined_obsidian_brick_wall",
     "beholdersvariations:refined_obsidian_tiling_wall",
     "beholdersvariations:smooth_refined_obsidian_wall",
-
     "beholdersvariations:quartz_tiling_wall",
     "beholdersvariations:prismarine_tiling_wall",
     "beholdersvariations:dark_prismarine_brick_wall",
@@ -31,7 +29,6 @@
     "beholdersvariations:vitric_dark_prismarine_wall",
     "beholdersvariations:vitric_dark_prismarine_brick_wall",
     "beholdersvariations:smooth_vitric_dark_prismarine_wall",
-
     "beholdersvariations:amber_wall",
     "beholdersvariations:amber_brick_wall",
     "beholdersvariations:amber_tiling_wall",
@@ -43,7 +40,24 @@
     "beholdersvariations:prism_quartz_wall",
     "beholdersvariations:prism_quartz_brick_wall",
     "beholdersvariations:prism_quartz_tiling_wall",
-    "beholdersvariations:smooth_prism_quartz_wall"
+    "beholdersvariations:smooth_prism_quartz_wall",
+
+    "beholdersvariations:vitric_sandstone_wall",
+    "beholdersvariations:vitric_sandstone_brick_wall",
+    "beholdersvariations:vitric_sandstone_tiling_wall",
+    "beholdersvariations:smooth_vitric_sandstone_wall",
+    "beholdersvariations:vitric_red_sandstone_wall",
+    "beholdersvariations:vitric_red_sandstone_brick_wall",
+    "beholdersvariations:vitric_red_sandstone_tiling_wall",
+    "beholdersvariations:smooth_vitric_red_sandstone_wall",
+    "beholdersvariations:vitric_soulsandstone_wall",
+    "beholdersvariations:vitric_soulsandstone_brick_wall",
+    "beholdersvariations:vitric_soulsandstone_tiling_wall",
+    "beholdersvariations:smooth_vitric_soulsandstone_wall",
+    "beholdersvariations:vitric_black_sandstone_wall",
+    "beholdersvariations:vitric_black_sandstone_brick_wall",
+    "beholdersvariations:vitric_black_sandstone_tiling_wall",
+    "beholdersvariations:smooth_vitric_black_sandstone_wall"
 
   ]
 }
