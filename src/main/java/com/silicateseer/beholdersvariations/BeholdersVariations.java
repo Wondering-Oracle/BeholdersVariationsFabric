@@ -8,6 +8,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.block.MaterialColor;
 import net.minecraft.block.PillarBlock;
+import net.minecraft.block.PressurePlateBlock.ActivationRule;
 import net.minecraft.block.RedstoneBlock;
 import net.minecraft.block.SandBlock;
 import net.minecraft.block.SlabBlock;
@@ -670,7 +671,10 @@ public class BeholdersVariations implements ModInitializer {
 	public static final Block SMOOTH_VITRIC_BLACK_SANDSTONE_WALL = register("smooth_vitric_black_sandstone_wall", 
 			new WallBlock(FabricBlockSettings.copy(SMOOTH_VITRIC_BLACK_SANDSTONE)), ItemGroup.DECORATIONS);
 	
-	
+	public static final Block TEST_PRESSURE_PLATE = register("test_pressure_plate", 
+			new BVPressurePlateBlock(ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.STONE, VITRIC_REDSTONE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	public static final Block TEST_BUTTON = register("test_button", 
+			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, VITRIC_REDSTONE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
 	
 	@Override
 	public void onInitialize() {
