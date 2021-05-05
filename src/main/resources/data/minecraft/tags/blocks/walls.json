@@ -41,7 +41,6 @@
     "beholdersvariations:prism_quartz_brick_wall",
     "beholdersvariations:prism_quartz_tiling_wall",
     "beholdersvariations:smooth_prism_quartz_wall",
-
     "beholdersvariations:vitric_sandstone_wall",
     "beholdersvariations:vitric_sandstone_brick_wall",
     "beholdersvariations:vitric_sandstone_tiling_wall",
@@ -57,7 +56,18 @@
     "beholdersvariations:vitric_black_sandstone_wall",
     "beholdersvariations:vitric_black_sandstone_brick_wall",
     "beholdersvariations:vitric_black_sandstone_tiling_wall",
-    "beholdersvariations:smooth_vitric_black_sandstone_wall"
-
+    "beholdersvariations:smooth_vitric_black_sandstone_wall",
+    "beholdersvariations:emerald_quartz_wall",
+    "beholdersvariations:emerald_quartz_brick_wall",
+    "beholdersvariations:emerald_quartz_tiling_wall",
+    "beholdersvariations:smooth_emerald_quartz_wall",
+    "beholdersvariations:diamond_quartz_wall",
+    "beholdersvariations:diamond_quartz_brick_wall",
+    "beholdersvariations:diamond_quartz_tiling_wall",
+    "beholdersvariations:smooth_diamond_quartz_wall",
+    "beholdersvariations:vitric_redstone_wall",
+    "beholdersvariations:vitric_redstone_brick_wall",
+    "beholdersvariations:vitric_redstone_tiling_wall",
+    "beholdersvariations:smooth_vitric_redstone_wall"
   ]
 }

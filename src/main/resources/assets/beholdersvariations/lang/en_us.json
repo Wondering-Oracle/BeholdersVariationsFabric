@@ -277,5 +277,17 @@
 	"block.beholdersvariations.vitric_black_sandstone_wall": "Vitric Black Sandstone Wall",
 	"block.beholdersvariations.vitric_black_sandstone_brick_wall": "Vitric Black Sandstone Brick Wall",
 	"block.beholdersvariations.vitric_black_sandstone_tiling_wall": "Vitric Black Sandstone Tiling Wall",
-	"block.beholdersvariations.smooth_vitric_black_sandstone_wall": "Smooth Vitric Black Sandstone Wall"
+	"block.beholdersvariations.smooth_vitric_black_sandstone_wall": "Smooth Vitric Black Sandstone Wall",
+	"block.beholdersvariations.emerald_quartz_wall": "Emerald Quartz Wall",
+	"block.beholdersvariations.emerald_quartz_brick_wall": "Emerald Quartz Brick Wall",
+	"block.beholdersvariations.emerald_quartz_tiling_wall": "Emerald Quartz Tiling Wall",
+	"block.beholdersvariations.smooth_emerald_quartz_wall": "Smooth Emerald Quartz Wall",
+	"block.beholdersvariations.diamond_quartz_wall": "Diamond Quartz Wall",
+	"block.beholdersvariations.diamond_quartz_brick_wall": "Diamond Quartz Brick Wall",
+	"block.beholdersvariations.diamond_quartz_tiling_wall": "Diamond Quartz Tiling Wall",
+	"block.beholdersvariations.smooth_diamond_quartz_wall": "Smooth Diamond Quartz Wall",
+	"block.beholdersvariations.vitric_redstone_wall": "Vitric Redstone Wall",
+	"block.beholdersvariations.vitric_redstone_brick_wall": "Vitric Redstone Brick Wall",
+	"block.beholdersvariations.vitric_redstone_tiling_wall": "Vitric Redstone Tiling Wall",
+	"block.beholdersvariations.smooth_vitric_redstone_wall": "Smooth Vitric Redstone Wall"
 }
