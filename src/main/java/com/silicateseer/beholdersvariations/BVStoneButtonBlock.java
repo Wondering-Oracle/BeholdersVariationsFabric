@@ -7,5 +7,4 @@ public class BVStoneButtonBlock extends StoneButtonBlock{
 	protected BVStoneButtonBlock(Settings settings) {
 		super(settings);
 	}
-
 }
