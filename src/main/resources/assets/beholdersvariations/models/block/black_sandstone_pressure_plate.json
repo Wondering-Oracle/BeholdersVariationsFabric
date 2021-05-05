@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_up",
   "textures": {
-    "texture": "beholdersvariations:block/prismarine_tiling"
+    "texture": "beholdersvariations:block/black_sandstone_top"
   }
 }

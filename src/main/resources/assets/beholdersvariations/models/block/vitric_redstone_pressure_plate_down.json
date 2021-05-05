@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_down",
   "textures": {
-    "texture": "beholdersvariations:block/prismarine_tiling"
+    "texture": "beholdersvariations:block/vitric_redstone"
   }
 }

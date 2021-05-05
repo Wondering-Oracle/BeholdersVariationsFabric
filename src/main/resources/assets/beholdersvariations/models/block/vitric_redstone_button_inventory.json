@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "beholdersvariations:block/vitric_redstone"
+  }
+}
