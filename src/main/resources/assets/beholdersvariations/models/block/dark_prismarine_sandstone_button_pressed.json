@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "beholdersvariations:block/dark_prismarine_sandstone_top"
+  }
+}

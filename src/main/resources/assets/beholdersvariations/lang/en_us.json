@@ -289,5 +289,19 @@
 	"block.beholdersvariations.vitric_redstone_wall": "Vitric Redstone Wall",
 	"block.beholdersvariations.vitric_redstone_brick_wall": "Vitric Redstone Brick Wall",
 	"block.beholdersvariations.vitric_redstone_tiling_wall": "Vitric Redstone Tiling Wall",
-	"block.beholdersvariations.smooth_vitric_redstone_wall": "Smooth Vitric Redstone Wall"
+	"block.beholdersvariations.smooth_vitric_redstone_wall": "Smooth Vitric Redstone Wall",
+	"block.beholdersvariations.chiseled_refined_obsidian_wall": "Chiseled Refined Obsidian Wall",
+	"block.beholdersvariations.chiseled_vitric_prismarine_wall": "Chiseled Vitric Prismarine Wall",
+	"block.beholdersvariations.chiseled_vitric_dark_prismarine_wall": "Chiseled Vitric Dark Prismarine Wall",
+	"block.beholdersvariations.chiseled_amber_wall": "Chiseled Amber Wall",
+	"block.beholdersvariations.chiseled_jade_wall": "Chiseled Jade Wall",
+	"block.beholdersvariations.chiseled_prism_quartz_wall": "Chiseled Prism Quartz Wall",
+	"block.beholdersvariations.chiseled_vitric_sandstone_wall": "Chiseled Vitric Sandstone Wall",
+	"block.beholdersvariations.chiseled_vitric_red_sandstone_wall": "Chiseled Vitric Red Sandstone Wall",
+	"block.beholdersvariations.chiseled_vitric_soulsandstone_wall": "Chiseled Vitric Soulsandstone Wall",
+	"block.beholdersvariations.chiseled_vitric_black_sandstone_wall": "Chiseled Vitric Black Sandstone Wall",
+	"block.beholdersvariations.chiseled_emerald_quartz_wall": "Chiseled Emerald Quartz Wall",
+	"block.beholdersvariations.chiseled_diamond_quartz_wall": "Chiseled Diamond Quartz Wall",
+	"block.beholdersvariations.chiseled_vitric_redstone_wall": "Chiseled Vitric Redstone Wall"
+
 }

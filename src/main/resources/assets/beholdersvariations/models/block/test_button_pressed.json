@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button_pressed",
   "textures": {
-    "texture": "beholdersvariations:block/prismarine_tiling"
+    "texture": "beholdersvariations:block/dark_prismarine_bricks"
   }
 }
