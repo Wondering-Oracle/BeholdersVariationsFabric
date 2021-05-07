@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/wall_inventory",
-  "textures": {
-    "wall": "beholdersvariations:block/smooth_refined_obsidian"
-  }
-}
