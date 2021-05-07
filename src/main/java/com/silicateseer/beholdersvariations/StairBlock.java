@@ -7,6 +7,6 @@ import net.minecraft.block.StairsBlock;
 public class StairBlock extends StairsBlock{
 	
 	public StairBlock(Block base) {
-		super(base.getDefaultState(), FabricBlockSettings.copy(base));
+		super(base.getDefaultState(), FabricBlockSettings.copyOf(base));
 	}
 }

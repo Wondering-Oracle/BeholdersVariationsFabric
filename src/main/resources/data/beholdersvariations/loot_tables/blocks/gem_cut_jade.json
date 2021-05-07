@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "beholdersvariations:jade"
+          "name": "beholdersvariations:gem_cut_jade"
         }
       ],
       "conditions": [
