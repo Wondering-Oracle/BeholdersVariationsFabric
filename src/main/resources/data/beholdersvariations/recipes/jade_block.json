@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@#",
+    "#@"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_block"
+    },
+    "@": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:jade_block",
+    "count": 2
+  }
+}

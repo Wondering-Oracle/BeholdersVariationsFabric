@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "beholdersvariations:amber"
-  },
-  "result": "beholdersvariations:chiseled_amber",
-  "count": 1
-}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:emerald_quartz"
+  },
+  "result": "beholdersvariations:chiseled_emerald_quartz",
+  "count": 1
+}

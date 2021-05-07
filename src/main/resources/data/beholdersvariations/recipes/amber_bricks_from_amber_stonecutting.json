@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "beholdersvariations:amber"
-  },
-  "result": "beholdersvariations:amber_bricks",
-  "count": 1
-}

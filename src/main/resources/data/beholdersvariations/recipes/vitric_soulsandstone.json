@@ -1,27 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "G#",
-    "#G"
-  ],
-  "key": {
-    "#": [
-      {
-        "item": "beholdersvariations:soulsandstone"
-      },
-      {
-        "item": "beholdersvariations:cut_soulsandstone"
-      },
-      {
-        "item": "beholdersvariations:chiseled_soulsandstone"
-      }
-    ],
-    "G": {
-      "item": "minecraft:glass"
-    }
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "beholdersvariations:smooth_soulsandstone"
   },
-  "result": {
-    "item": "beholdersvariations:vitric_soulsandstone",
-    "count": 2
-  }
+  "result": "beholdersvariations:vitric_soulsandstone",
+  "experience": 0.1,
+  "cookingtime": 200
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:vitric_black_sandstone_tiling"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:vitric_black_sandstone_tiling_stairs",
+    "count": 4
+  }
+}

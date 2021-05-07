@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:smooth_diamond_quartz"
+  },
+  "result": "beholdersvariations:smooth_diamond_quartz_slab",
+  "count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:vitric_black_sandstone"
+  },
+  "result": "beholdersvariations:vitric_black_sandstone_pillar",
+  "count": 1
+}

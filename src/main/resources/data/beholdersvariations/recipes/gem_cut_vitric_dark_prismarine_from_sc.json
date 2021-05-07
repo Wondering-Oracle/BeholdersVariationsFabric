@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:vitric_dark_prismarine"
+  },
+  "result": "beholdersvariations:gem_cut_vitric_dark_prismarine",
+  "count": 1
+}

@@ -52,7 +52,7 @@ public class BeholdersVariations implements ModInitializer {
 	public static final Block QUARTZ_TILING_STAIRS = register("quartz_tiling_stairs", 
 			new StairBlock(QUARTZ_TILING), ItemGroup.BUILDING_BLOCKS);
 	public static final Block GEM_CUT_QUARTZ = register("gem_cut_quartz", 
-			new Block(FabricBlockSettings.of(Material.METAL, MaterialColor.QUARTZ).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)), ItemGroup.BUILDING_BLOCKS);
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.QUARTZ).requiresTool().strength(5.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
 	
 	public static final Block VITRIC_SANDSTONE = register("vitric_sandstone", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.SAND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
@@ -174,7 +174,7 @@ public class BeholdersVariations implements ModInitializer {
 	public static final Block SMOOTH_PRISM_QUARTZ_STAIRS = register("smooth_prism_quartz_stairs", 
 			new StairBlock(SMOOTH_PRISM_QUARTZ), ItemGroup.BUILDING_BLOCKS);
 	public static final Block GEM_CUT_PRISM_QUARTZ = register("gem_cut_prism_quartz", 
-			new Block(FabricBlockSettings.of(Material.METAL, MaterialColor.CYAN).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)), ItemGroup.BUILDING_BLOCKS);
+			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.CYAN).requiresTool().strength(5.0F, 6.0F)), ItemGroup.BUILDING_BLOCKS);
 	
 	public static final Block PRISMARINE_SANDSTONE = register("prismarine_sandstone", 
 			new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.DIAMOND).requiresTool().strength(0.8F)), ItemGroup.BUILDING_BLOCKS);
