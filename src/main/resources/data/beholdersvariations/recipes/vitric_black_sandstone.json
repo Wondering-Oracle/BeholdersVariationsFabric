@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "beholdersvariations:smooth_black_sandstone"
+  },
+  "result": "beholdersvariations:vitric_black_sandstone",
+  "experience": 0.1,
+  "cookingtime": 200
+}

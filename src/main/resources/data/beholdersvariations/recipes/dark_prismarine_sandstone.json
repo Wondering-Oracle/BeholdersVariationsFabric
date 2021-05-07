@@ -1,22 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#*",
-    "*#"
-  ],
-  "key": {
-    "#": {
-      "item": "beholdersvariations:prismarine_sand"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "beholdersvariations:prismarine_sandstone"
     },
-    "*": [
-      {
-        "item":"minecraft:black_dye"
-      },
-      {
-        "item":"minecraft:ink_sac"
-      }
-    ]
-  },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
   "result": {
     "item": "beholdersvariations:dark_prismarine_sandstone"
   }

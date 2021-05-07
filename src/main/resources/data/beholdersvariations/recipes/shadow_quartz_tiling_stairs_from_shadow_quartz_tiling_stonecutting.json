@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "beholdersvariations:shadow_quartz_tiling"
-  },
-  "result": "beholdersvariations:shadow_quartz_tiling_stairs",
-  "count": 1
-}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "beholdersvariations:chiseled_vitric_redstone"
+      },
+      {
+        "item": "beholdersvariations:vitric_redstone"
+      },
+      {
+        "item": "beholdersvariations:vitric_redstone_pillar"
+      }
+    ]
+  },
+  "result": {
+    "item": "beholdersvariations:vitric_redstone_stairs",
+    "count": 4
+  }
+}
