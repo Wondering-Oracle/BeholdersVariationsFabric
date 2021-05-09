@@ -738,6 +738,26 @@ public class BeholdersVariations implements ModInitializer {
 	public static final Block VITRIC_DARK_PRISMARINE_PRESSURE_PLATE = register("vitric_dark_prismarine_pressure_plate", 
 			new BVPressurePlateBlock(ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE, VITRIC_DARK_PRISMARINE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
 	
+	public static final Block JADE_PRESSURE_PLATE = register("jade_pressure_plate", 
+			new BVPressurePlateBlock(ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE, JADE_BLOCK.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	public static final Block JADE_TILING_PRESSURE_PLATE = register("jade_tiling_pressure_plate", 
+			new BVPressurePlateBlock(ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE, JADE_TILING.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	
+	public static final Block AMBER_PRESSURE_PLATE = register("amber_pressure_plate", 
+			new BVPressurePlateBlock(ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE, AMBER_BLOCK.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	public static final Block AMBER_TILING_PRESSURE_PLATE = register("amber_tiling_pressure_plate", 
+			new BVPressurePlateBlock(ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE, AMBER_TILING.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	
+	public static final Block EMERALD_QUARTZ_PRESSURE_PLATE = register("emerald_quartz_pressure_plate", 
+			new BVPressurePlateBlock(ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE, EMERALD_QUARTZ.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	public static final Block EMERALD_QUARTZ_TILING_PRESSURE_PLATE = register("emerald_quartz_tiling_pressure_plate", 
+			new BVPressurePlateBlock(ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE, EMERALD_QUARTZ_TILING.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	
+	public static final Block DIAMOND_QUARTZ_PRESSURE_PLATE = register("diamond_quartz_pressure_plate", 
+			new BVPressurePlateBlock(ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE, DIAMOND_QUARTZ.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	public static final Block DIAMOND_QUARTZ_TILING_PRESSURE_PLATE = register("diamond_quartz_tiling_pressure_plate", 
+			new BVPressurePlateBlock(ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE, DIAMOND_QUARTZ_TILING.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	
 	public static final Block VITRIC_REDSTONE_PRESSURE_PLATE = register("vitric_redstone_pressure_plate", 
 			new BVPressurePlateBlock(ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE, VITRIC_REDSTONE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
 	public static final Block VITRIC_REDSTONE_TILING_PRESSURE_PLATE = register("vitric_redstone_tiling_pressure_plate", 
@@ -750,8 +770,8 @@ public class BeholdersVariations implements ModInitializer {
 	public static final Block VITRIC_BLACK_SANDSTONE_TILING_PRESSURE_PLATE = register("vitric_black_sandstone_tiling_pressure_plate", 
 			new BVPressurePlateBlock(ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE, VITRIC_BLACK_SANDSTONE_TILING.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
 	
-	public static final Block TEST_PRESSURE_PLATE = register("test_pressure_plate", 
-			new BVPressurePlateBlock(ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.STONE, VITRIC_REDSTONE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	//public static final Block TEST_PRESSURE_PLATE = register("test_pressure_plate", 
+	//		new BVPressurePlateBlock(ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.STONE, VITRIC_REDSTONE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
 	
 	
 	
@@ -775,6 +795,11 @@ public class BeholdersVariations implements ModInitializer {
 	public static final Block CHISELED_VITRIC_SOULSANDSTONE_BUTTON = register("chiseled_vitric_soulsandstone_button", 
 			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, CHISELED_VITRIC_SOULSANDSTONE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
 	
+	public static final Block PRISM_QUARTZ_BUTTON = register("prism_quartz_button", 
+			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, PRISM_QUARTZ.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	public static final Block CHISELED_PRISM_QUARTZ_BUTTON = register("chiseled_prism_quartz_button", 
+			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, CHISELED_PRISM_QUARTZ.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	
 	public static final Block PRISMARINE_SANDSTONE_BUTTON = register("prismarine_sandstone_button", 
 			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, PRISMARINE_SANDSTONE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
 	public static final Block VITRIC_PRISMARINE_BUTTON = register("vitric_prismarine_button", 
@@ -789,6 +814,26 @@ public class BeholdersVariations implements ModInitializer {
 	public static final Block CHISELED_VITRIC_DARK_PRISMARINE_BUTTON = register("chiseled_vitric_dark_prismarine_button", 
 			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, CHISELED_VITRIC_DARK_PRISMARINE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
 	
+	public static final Block JADE_BUTTON = register("jade_button", 
+			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, JADE_BLOCK.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	public static final Block CHISELED_JADE_BUTTON = register("chiseled_jade_button", 
+			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, CHISELED_JADE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	
+	public static final Block AMBER_BUTTON = register("amber_button", 
+			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, AMBER_BLOCK.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	public static final Block CHISELED_AMBER_BUTTON = register("chiseled_amber_button", 
+			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, CHISELED_AMBER.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	
+	public static final Block EMERALD_QUARTZ_BUTTON = register("emerald_quartz_button", 
+			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, EMERALD_QUARTZ.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	public static final Block CHISELED_EMERALD_QUARTZ_BUTTON = register("chiseled_emerald_quartz_button", 
+			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, CHISELED_EMERALD_QUARTZ.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	
+	public static final Block DIAMOND_QUARTZ_BUTTON = register("diamond_quartz_button", 
+			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, DIAMOND_QUARTZ.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	public static final Block CHISELED_DIAMOND_QUARTZ_BUTTON = register("chiseled_diamond_quartz_button", 
+			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, CHISELED_DIAMOND_QUARTZ.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	
 	public static final Block VITRIC_REDSTONE_BUTTON = register("vitric_redstone_button", 
 			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, VITRIC_REDSTONE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
 	public static final Block CHISELED_VITRIC_REDSTONE_BUTTON = register("chiseled_vitric_redstone_button", 
@@ -801,8 +846,8 @@ public class BeholdersVariations implements ModInitializer {
 	public static final Block CHISELED_VITRIC_BLACK_SANDSTONE_BUTTON = register("chiseled_vitric_black_sandstone_button", 
 			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, CHISELED_VITRIC_BLACK_SANDSTONE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
 	
-	public static final Block TEST_BUTTON = register("test_button", 
-			new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, VITRIC_REDSTONE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
+	//public static final Block TEST_BUTTON = register("test_button", 
+	//		new BVStoneButtonBlock(FabricBlockSettings.of(Material.SUPPORTED, VITRIC_REDSTONE.getDefaultMaterialColor()).noCollision().strength(0.5F).sounds(BlockSoundGroup.STONE)), ItemGroup.REDSTONE);
 	
 	
 	

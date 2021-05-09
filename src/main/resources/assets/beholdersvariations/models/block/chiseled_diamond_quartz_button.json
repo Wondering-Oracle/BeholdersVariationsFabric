@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "beholdersvariations:block/chiseled_diamond_quartz"
+  }
+}

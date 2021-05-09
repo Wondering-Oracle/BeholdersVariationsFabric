@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "beholdersvariations:block/diamond_quartz_tiling_pressure_plate"
+    },
+    "powered=true": {
+      "model": "beholdersvariations:block/diamond_quartz_tiling_pressure_plate_down"
+    }
+  }
+}

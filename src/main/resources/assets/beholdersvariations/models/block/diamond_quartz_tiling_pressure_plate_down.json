@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "beholdersvariations:block/diamond_quartz_tiling"
+  }
+}
