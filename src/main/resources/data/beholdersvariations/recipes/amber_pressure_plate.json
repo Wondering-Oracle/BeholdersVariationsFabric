@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:amber_block"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:amber_pressure_plate"
+  }
+}

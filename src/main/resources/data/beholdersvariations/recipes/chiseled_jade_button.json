@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "beholdersvariations:chiseled_jade"
+    }
+  ],
+  "result": {
+    "item": "beholdersvariations:chiseled_jade_button"
+  }
+}

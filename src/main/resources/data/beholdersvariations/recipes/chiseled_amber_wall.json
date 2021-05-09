@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:chiseled_amber"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:chiseled_amber_wall",
+    "count": 6
+  }
+}

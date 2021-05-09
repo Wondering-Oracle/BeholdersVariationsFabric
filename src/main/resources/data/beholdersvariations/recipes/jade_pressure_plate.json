@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:jade_block"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:jade_pressure_plate"
+  }
+}

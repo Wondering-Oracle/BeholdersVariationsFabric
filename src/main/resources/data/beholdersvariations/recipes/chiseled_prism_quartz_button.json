@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "beholdersvariations:chiseled_prism_quartz"
+    }
+  ],
+  "result": {
+    "item": "beholdersvariations:chiseled_prism_quartz_button"
+  }
+}

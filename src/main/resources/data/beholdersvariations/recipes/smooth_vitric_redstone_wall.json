@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:smooth_vitric_redstone"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:smooth_vitric_redstone_wall",
+    "count": 6
+  }
+}

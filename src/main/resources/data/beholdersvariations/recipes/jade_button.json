@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "beholdersvariations:jade_block"
+    }
+  ],
+  "result": {
+    "item": "beholdersvariations:jade_button"
+  }
+}

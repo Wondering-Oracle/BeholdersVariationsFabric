@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "beholdersvariations:amber_block"
+    }
+  ],
+  "result": {
+    "item": "beholdersvariations:amber_button"
+  }
+}

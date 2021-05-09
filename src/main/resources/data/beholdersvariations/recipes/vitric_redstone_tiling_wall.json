@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:vitric_redstone_tiling"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:vitric_redstone_tiling_wall",
+    "count": 6
+  }
+}

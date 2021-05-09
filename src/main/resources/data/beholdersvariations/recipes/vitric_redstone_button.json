@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "beholdersvariations:vitric_redstone"
+    }
+  ],
+  "result": {
+    "item": "beholdersvariations:vitric_redstone_button"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:prism_quartz_tiling"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:prism_quartz_tiling_pressure_plate"
+  }
+}
