@@ -1,0 +1,35 @@
+{
+  "replace": false,
+  "values": [
+    "beholdersvariations:silicastone_button",
+    "beholdersvariations:soulsandstone_button",
+    "beholdersvariations:prismarine_sandstone_button",
+    "beholdersvariations:dark_prismarine_sandstone_button",
+    "beholdersvariations:black_sandstone_button",
+
+    "beholdersvariations:vitric_prismarine_button",
+    "beholdersvariations:chiseled_vitric_prismarine_button",
+    "beholdersvariations:vitric_dark_prismarine_button",
+    "beholdersvariations:chiseled_vitric_dark_prismarine_button",
+    "beholdersvariations:amber_button",
+    "beholdersvariations:chiseled_amber_button",
+    "beholdersvariations:jade_button",
+    "beholdersvariations:chiseled_jade_button",
+    "beholdersvariations:prism_quartz_button",
+    "beholdersvariations:chiseled_prism_quartz_button",
+    "beholdersvariations:vitric_sandstone_button",
+    "beholdersvariations:chiseled_vitric_sandstone_button",
+    "beholdersvariations:vitric_red_sandstone_button",
+    "beholdersvariations:chiseled_vitric_red_sandstone_button",
+    "beholdersvariations:vitric_soulsandstone_button",
+    "beholdersvariations:chiseled_vitric_soulsandstone_button",
+    "beholdersvariations:vitric_black_sandstone_button",
+    "beholdersvariations:chiseled_vitric_black_sandstone_button",
+    "beholdersvariations:emerald_quartz_button",
+    "beholdersvariations:chiseled_emerald_quartz_button",
+    "beholdersvariations:diamond_quartz_button",
+    "beholdersvariations:chiseled_diamond_quartz_button",
+    "beholdersvariations:vitric_redstone_button",
+    "beholdersvariations:chiseled_vitric_redstone_button"
+  ]
+}

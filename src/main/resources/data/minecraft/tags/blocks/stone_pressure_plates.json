@@ -1,0 +1,36 @@
+{
+  "replace": false,
+  "values": [
+    "beholdersvariations:silicastone_pressure_plate",
+    "beholdersvariations:soulsandstone_pressure_plate",
+    "beholdersvariations:prismarine_sandstone_pressure_plate",
+    "beholdersvariations:dark_prismarine_sandstone_pressure_plate",
+    "beholdersvariations:black_sandstone_pressure_plate",
+
+    "beholdersvariations:vitric_prismarine_pressure_plate",
+    "beholdersvariations:vitric_dark_prismarine_pressure_plate",
+    "beholdersvariations:amber_pressure_plate",
+    "beholdersvariations:jade_pressure_plate",
+    "beholdersvariations:prism_quartz_pressure_plate",
+    "beholdersvariations:vitric_sandstone_pressure_plate",
+    "beholdersvariations:vitric_red_sandstone_pressure_plate",
+    "beholdersvariations:vitric_soulsandstone_pressure_plate",
+    "beholdersvariations:vitric_black_sandstone_pressure_plate",
+    "beholdersvariations:emerald_quartz_pressure_plate",
+    "beholdersvariations:diamond_quartz_pressure_plate",
+    "beholdersvariations:vitric_redstone_pressure_plate",
+
+    "beholdersvariations:vitric_prismarine_tiling_pressure_plate",
+    "beholdersvariations:vitric_dark_prismarine_tiling_pressure_plate",
+    "beholdersvariations:amber_tiling_pressure_plate",
+    "beholdersvariations:jade_tiling_pressure_plate",
+    "beholdersvariations:prism_quartz_tiling_pressure_plate",
+    "beholdersvariations:vitric_sandstone_tiling_pressure_plate",
+    "beholdersvariations:vitric_red_sandstone_tiling_pressure_plate",
+    "beholdersvariations:vitric_soulsandstone_tiling_pressure_plate",
+    "beholdersvariations:vitric_black_sandstone_tiling_pressure_plate",
+    "beholdersvariations:emerald_quartz_tiling_pressure_plate",
+    "beholdersvariations:diamond_quartz_tiling_pressure_plate",
+    "beholdersvariations:vitric_redstone_tiling_pressure_plate"
+  ]
+}
