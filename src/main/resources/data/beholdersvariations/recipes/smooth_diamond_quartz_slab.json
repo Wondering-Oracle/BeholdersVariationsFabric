@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:smooth_diamond_quartz"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:smooth_diamond_quartz_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:vitric_redstone_tiling"
+  },
+  "result": "beholdersvariations:vitric_redstone_tiling_slab",
+  "count": 2
+}

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "beholdersvariations:amber"
+    "item": "beholdersvariations:amber_block"
   },
   "result": "beholdersvariations:smooth_amber",
   "experience": 0.1,

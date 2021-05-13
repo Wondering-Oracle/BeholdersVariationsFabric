@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "beholdersvariations:soulsandstone",
+    "beholdersvariations:soulsandstone_slab",
+    "beholdersvariations:soulsandstone_stairs",
+    "beholdersvariations:cut_soulsandstone",
+    "beholdersvariations:cut_soulsandstone_slab",
+    "beholdersvariations:chiseled_soulsandstone",
+    "beholdersvariations:smooth_soulsandstone",
+    "beholdersvariations:smooth_soulsandstone_slab",
+    "beholdersvariations:smooth_soulsandstone_stairs",
+    "beholdersvariations:vitric_soulsandstone",
+    "beholdersvariations:vitric_soulsandstone_slab",
+    "beholdersvariations:vitric_soulsandstone_stairs",
+    "beholdersvariations:chiseled_vitric_soulsandstone",
+    "beholdersvariations:vitric_soulsandstone_bricks",
+    "beholdersvariations:vitric_soulsandstone_tiling",
+    "beholdersvariations:vitric_soulsandstone_tiling_slab",
+    "beholdersvariations:vitric_soulsandstone_tiling_stairs",
+    "beholdersvariations:vitric_soulsandstone_pillar",
+    "beholdersvariations:smooth_vitric_soulsandstone",
+    "beholdersvariations:smooth_vitric_soulsandstone_slab",
+    "beholdersvariations:smooth_vitric_soulsandstone_stairs"
+  ]
+}

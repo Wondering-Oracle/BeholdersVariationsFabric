@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "beholdersvariations:shadow_quartz"
-  },
-  "result": "beholdersvariations:shadow_quartz_pillar",
-  "count": 1
-}

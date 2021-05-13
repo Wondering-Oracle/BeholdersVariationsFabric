@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab",
-    "textures": {
-        "bottom": "beholdersvariations:block/shadow_quartz",
-        "top": "beholdersvariations:block/shadow_quartz",
-        "side": "beholdersvariations:block/shadow_quartz"
-    }
-}

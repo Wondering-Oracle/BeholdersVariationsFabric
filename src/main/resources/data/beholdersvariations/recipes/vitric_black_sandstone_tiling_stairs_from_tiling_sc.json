@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:vitric_black_sandstone_tiling"
+  },
+  "result": "beholdersvariations:vitric_black_sandstone_tiling_stairs",
+  "count": 1
+}

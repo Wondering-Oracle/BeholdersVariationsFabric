@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:jade_block"
+  },
+  "result": "beholdersvariations:chiseled_jade",
+  "count": 1
+}

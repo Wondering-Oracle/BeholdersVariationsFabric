@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "beholdersvariations:chiseled_vitric_black_sandstone"
+      },
+      {
+        "item": "beholdersvariations:vitric_black_sandstone"
+      },
+      {
+        "item": "beholdersvariations:vitric_black_sandstone_pillar"
+      }
+    ]
+  },
+  "result": {
+    "item": "beholdersvariations:vitric_black_sandstone_slab",
+    "count": 6
+  }
+}

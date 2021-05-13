@@ -1,8 +1,8 @@
 {
     "parent": "block/slab_top",
     "textures": {
-        "bottom": "beholdersvariations:block/soulsandstone_tiling",
-        "top": "beholdersvariations:block/soulsandstone_tiling",
-        "side": "beholdersvariations:block/soulsandstone_tiling"
+        "bottom": "beholdersvariations:block/vitric_soulsandstone_tiling",
+        "top": "beholdersvariations:block/vitric_soulsandstone_tiling",
+        "side": "beholdersvariations:block/vitric_soulsandstone_tiling"
     }
 }

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "beholdersvariations:black_sandstone"
+    }
+  },
+  "result": {
+    "item": "beholdersvariations:cut_black_sandstone",
+    "count": 4
+  }
+}

@@ -1,8 +1,0 @@
-{
-    "parent": "block/outer_stairs",
-    "textures": {
-        "bottom": "beholdersvariations:block/shadow_quartz_tiling",
-        "top": "beholdersvariations:block/shadow_quartz_tiling",
-        "side": "beholdersvariations:block/shadow_quartz_tiling"
-    }
-}
