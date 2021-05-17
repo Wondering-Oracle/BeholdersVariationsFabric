@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "beholdersvariations:block/smooth_diamond_quartz"
+  }
+}

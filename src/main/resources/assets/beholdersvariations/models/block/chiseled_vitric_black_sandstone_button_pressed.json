@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "beholdersvariations:block/chiseled_vitric_black_sandstone"
+  }
+}

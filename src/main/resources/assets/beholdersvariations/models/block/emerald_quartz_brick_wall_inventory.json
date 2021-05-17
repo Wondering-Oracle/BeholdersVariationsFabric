@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "beholdersvariations:block/emerald_quartz_bricks"
+  }
+}
