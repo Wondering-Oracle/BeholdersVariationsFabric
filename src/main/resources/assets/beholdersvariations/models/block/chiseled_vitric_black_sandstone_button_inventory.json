@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button_inventory",
-  "textures": {
-    "texture": "beholdersvariations:block/chiseled_vitric_black_sandstone"
-  }
-}
