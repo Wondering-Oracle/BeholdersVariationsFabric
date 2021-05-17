@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beholdersvariations:quartz_tiling"
+  },
+  "result": "beholdersvariations:quartz_tiling_wall",
+  "count": 1
+}
